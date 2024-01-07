@@ -30,10 +30,10 @@ export const Home = () => {
               src={header_logo}
             />
             <div id={styles.navbar}>
-              <div id={styles.text_wrapper}>Об Агрегаторе</div>
-              <div id={styles.text_wrapper}>О подписках</div>
-              <div id={styles.text_wrapper}>Зарегистрироваться</div>
-              <div id={styles.text_wrapper}>Авторизоваться</div>
+              <div id={styles.text_wrapper} className={styles.header_link}>Об Агрегаторе</div>
+              <div id={styles.text_wrapper} className={styles.header_link}>О подписках</div>
+              <div id={styles.text_wrapper} className={styles.header_link}>Зарегистрироваться</div>
+              <div id={styles.text_wrapper} className={styles.header_link}>Авторизоваться</div>
             </div>
           </div>
           <div id={styles.view_2}>
@@ -52,7 +52,7 @@ export const Home = () => {
                 Попробуйте бесплатный доступ и оцените все основные функции NEUROS даже не притрагиваясь к оплате!
               </p>
             </div>
-            <div id={styles.div_wrapper}>
+            <div id={styles.div_wrapper} className={styles.btn_register}>
               <div id={styles.text_wrapper_2}>ЗАРЕГИСТРИРОВАТЬСЯ</div>
             </div>
           </div>
@@ -156,7 +156,7 @@ export const Home = () => {
           <div id={styles.text_wrapper_6}>Тарифы</div>
           <div id={styles.frame_8}>
             <div id={styles.frame_9}>
-              <div id={styles.overlap_group}>
+              <div id={styles.overlap_group} className={styles.btn_purchase}>
                 <div id={styles.text_wrapper_7}>Приобрести</div>
               </div>
               <div id={styles.text_wrapper_8}>Стартовый</div>
@@ -166,7 +166,7 @@ export const Home = () => {
               </div>
             </div>
             <div id={styles.frame_9}>
-              <div id={styles.overlap}>
+              <div id={styles.overlap} className={styles.btn_purchase}>
                 <div id={styles.text_wrapper_7}>Приобрести</div>
               </div>
               <div id={styles.text_wrapper_10}>Продвинутый</div>
@@ -176,7 +176,7 @@ export const Home = () => {
               </div>
             </div>
             <div id={styles.frame_10}>
-              <div id={styles.overlap}>
+              <div id={styles.overlap} className={styles.btn_purchase}>
                 <div id={styles.text_wrapper_7}>Приобрести</div>
               </div>
               <div id={styles.text_wrapper_11}>Профессиональный</div>
@@ -187,7 +187,10 @@ export const Home = () => {
             </div>
           </div>
           <div id={styles.frame_11}>
-            <div id={styles.text_wrapper_13}>Контакты:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; info@neuros.ru &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; help@neuros.pls</div>
+            <div id={styles.text_wrapper_13}>Контакты:  
+             <div className={styles.footer_mail}>info@neuros.ru </div>
+             <div className={styles.footer_mail}>help@neuros.pls </div>
+            </div>
           </div>
         </div>
       </div>

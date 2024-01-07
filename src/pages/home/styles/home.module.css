@@ -429,12 +429,14 @@
   }
   
   #index #rectangle {
-	background-color: #d9d9d9;
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 30px;
 	height: 79px;
 	left: 110px;
 	position: absolute;
 	top: 390px;
 	width: 202px;
+	
 
 	color: #000000;
 	font-family: "Kodchasan", Helvetica;
@@ -482,7 +484,8 @@
   }
   
   #index #rectangle_2 {
-	background-color: #d9d9d9;
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 30px;
 	height: 79px;
 	left: 109px;
 	position: absolute;
@@ -524,7 +527,8 @@
   }
   
   #index #rectangle_3 {
-	background-color: #d9d9d9;
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 30px;
 	height: 79px;
 	left: 106px;
 	position: absolute;
@@ -575,5 +579,44 @@
 	line-height: normal;
 	position: absolute;
 	top: 29px;
+
+	display: flex;
+	gap: 120px;
   }
   
+  .header_link{
+	transition: 0.3s;
+  }
+  .header_link:hover{
+	color: #85e2e8 !important;
+	cursor: pointer;
+  }
+
+  .btn_register{
+	transition: 0.3s;
+	
+  }
+
+
+  .btn_register:hover{
+
+	background-color: #95f8ff !important;
+	cursor: pointer;
+  }
+.btn_purchase{
+	transition: 0.3s;
+}
+
+  .btn_purchase:hover{
+	background-color: #95f8ff !important;
+	cursor: pointer;
+  }
+
+  .footer_mail{
+	transition: 0.3s;
+  }
+
+  .footer_mail:hover{
+	color: #85e2e8 !important;
+	cursor: pointer;
+  }

@@ -132,7 +132,7 @@
   
   .index .view_3 {
 	align-items: center;
-	background-color: #00000080;
+	/*background-color: #00000080;*/
 	background-position: 50% 50%;
 	background-size: cover;
 	display: flex;
@@ -345,7 +345,7 @@
   
   .index .view_4 {
 	align-items: center;
-	background-color: #00000080;
+	/*background-color: #00000080;*/
 	background-position: 50% 50%;
 	background-size: cover;
 	display: flex;

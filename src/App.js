@@ -8,6 +8,10 @@ import Reviews from "./pages/reviews/Reviews";
 import NotFound from "./pages/NotFound/NotFound";
 import MainLayout from "./layouts/MainLayout";
 
+import Pipeline from "./pages/pipeline/Pipeline";
+import Pipelist from "./pages/pipelist/Pipelist";
+import Pipeline_add from "./pages/pipeline_add/Pipeline_add";
+import Pipeline_redact from "./pages/pipeline_redact/Pipeline_redact";
 
 
 import { Button, ConfigProvider, Space, theme } from 'antd';

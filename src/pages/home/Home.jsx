@@ -4,8 +4,18 @@ import styles from './styles/home.module.css';
 import { useEffect, useState } from "react";
 import { Spin } from "antd";
 
-import header_logo from "./assets/header.png";
-import top_logo from "./assets/top.png";
+import header_logo from "./assets/logo.svg";
+import aggregator_logo from "./assets/logo1.svg";
+
+import img10 from "./assets/image-10.png";
+import img2 from "./assets/image-2.png";
+import img1 from "./assets/image-1.png";
+import img9 from "./assets/image-9.png";
+import img4 from "./assets/image-4.png";
+import img7 from "./assets/image-7.png";
+import img8 from "./assets/image-8.png";
+import img5 from "./assets/image-5.png";
+import img6 from "./assets/image-6.png";
 
 import {Button} from 'antd';
 
@@ -17,7 +27,7 @@ export const Home = () => {
             <img
               className={styles.image}
               alt="Image"
-              src="https://cdn.animaapp.com/projects/659a96dbde0bbd56d7a8ad3d/releases/659a97a83eeab1d3632e9f59/img/----.svg"
+              src={header_logo}
             />
             <div className={styles.navbar}>
               <div className={styles.text_wrapper}>О Агрегаторе</div>
@@ -30,7 +40,7 @@ export const Home = () => {
             <img
               className={styles.img}
               alt="Image"
-              src="https://cdn.animaapp.com/projects/659a96dbde0bbd56d7a8ad3d/releases/659a97a83eeab1d3632e9f59/img/-----1.svg"
+              src={aggregator_logo}
             />
             <div className={styles.lorem_ipsum_dolor_wrapper}>
               <p className={styles.lorem_ipsum_dolor}>
@@ -65,21 +75,21 @@ export const Home = () => {
                 <img
                   className={styles.image_2}
                   alt="Image"
-                  src="https://cdn.animaapp.com/projects/659a96dbde0bbd56d7a8ad3d/releases/659a97a83eeab1d3632e9f59/img/image-10.png"
+                  src={img10}
                 />
               </div>
               <div className={styles.img_wrapper}>
                 <img
                   className={styles.image_3}
                   alt="Image"
-                  src="https://cdn.animaapp.com/projects/659a96dbde0bbd56d7a8ad3d/releases/659a97a83eeab1d3632e9f59/img/image-2.png"
+                  src={img2}
                 />
               </div>
               <div className={styles.frame_4}>
                 <img
                   className={styles.image_4}
                   alt="Image"
-                  src="https://cdn.animaapp.com/projects/659a96dbde0bbd56d7a8ad3d/releases/659a97a83eeab1d3632e9f59/img/image-1.png"
+                  src={img1}
                 />
               </div>
             </div>
@@ -88,21 +98,21 @@ export const Home = () => {
                 <img
                   className={styles.image_5}
                   alt="Image"
-                  src="https://cdn.animaapp.com/projects/659a96dbde0bbd56d7a8ad3d/releases/659a97a83eeab1d3632e9f59/img/image-9.png"
+                  src={img9}
                 />
               </div>
               <div className={styles.image_wrapper}>
                 <img
                   className={styles.image_6}
                   alt="Image"
-                  src="https://cdn.animaapp.com/projects/659a96dbde0bbd56d7a8ad3d/releases/659a97a83eeab1d3632e9f59/img/image-4.png"
+                  src={img4}
                 />
               </div>
               <div className={styles.img_wrapper}>
                 <img
                   className={styles.image_7}
                   alt="Image"
-                  src="https://cdn.animaapp.com/projects/659a96dbde0bbd56d7a8ad3d/releases/659a97a83eeab1d3632e9f59/img/image-7.png"
+                  src={img7}
                 />
               </div>
               <div className={styles.frame_6}>
@@ -118,7 +128,7 @@ export const Home = () => {
                 <img
                   className={styles.image_8}
                   alt="Image"
-                  src="https://cdn.animaapp.com/projects/659a96dbde0bbd56d7a8ad3d/releases/659a97a83eeab1d3632e9f59/img/image-8.png"
+                  src={img8}
                 />
               </div>
               <div className={styles.frame_7}>
@@ -132,14 +142,14 @@ export const Home = () => {
                 <img
                   className={styles.image_9}
                   alt="Image"
-                  src="https://cdn.animaapp.com/projects/659a96dbde0bbd56d7a8ad3d/releases/659a97a83eeab1d3632e9f59/img/image-5.png"
+                  src={img5}
                 />
               </div>
               <div className={styles.fram_4}>
                 <img
                   className={styles.image_10}
                   alt="Image"
-                  src="https://cdn.animaapp.com/projects/659a96dbde0bbd56d7a8ad3d/releases/659a97a83eeab1d3632e9f59/img/image-6.png"
+                  src={img6}
                 />
               </div>
             </div>

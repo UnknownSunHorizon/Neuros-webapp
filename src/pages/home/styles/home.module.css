@@ -1,10 +1,9 @@
 .index {
 	align-items: center;
 	background-color: #ffffff;
-	display: flex;
 	flex-direction: column;
-	height: 3240px;
-	position: relative;
+	width: 100%;
+	overflow: hidden;
   }
   
   .index .view {

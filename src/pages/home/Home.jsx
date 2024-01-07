@@ -172,7 +172,7 @@ export const Home = () => {
               <div className={styles.text_wrapper_10}>Продвинутый</div>
               <div className={styles.rectangle_2} >699 Р/месяц</div>
               <div className={styles.text_wrapper_9}>
-                - доступны все нейросети<br />- 10ГБ для хранения результатов<br />- различные модели для RVC, Dall-E, GPT<br />- преимущества прошлых планов
+                - доступны все нейросети<br />- 10ГБ для результатов <br />- различные модели для RVC, Dall-E, GPT <br /> - до 50 пайплайнов<br />- преимущества прошлых планов
               </div>
             </div>
             <div className={styles.frame_10}>
@@ -182,7 +182,7 @@ export const Home = () => {
               <div className={styles.text_wrapper_11}>Профессиональный</div>
               <div className={styles.rectangle_3} >1299 Р/месяц</div>
               <div className={styles.text_wrapper_12}>
-              - приоритетный доступ<br />- 30ГБ для хранения результатов<br />- уникальные пресеты настроек<br />- неограниченные пайплайны<br />- преимущества прошлых планов
+              - приоритетный доступ<br />- 30ГБ для результатов<br />- уникальные пресеты<br />- нет ограничений на пайплайны<br />- преимущества прошлых планов
               </div>
             </div>
           </div>

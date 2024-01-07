@@ -1,3 +1,25 @@
 .title {
     color: red;
 } 
+
+.pipelines_container {
+	width: 100vw;
+	height: 80vh;
+    column-gap: 2vw;
+    row-gap: 1vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    padding: 5vh 5vh 0px 5vh;
+}
+
+.pipelines_block{
+    width: 21vw;
+	height: 23vh;
+    background-image: url("https://placehold.co/410x250.png");
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: end;
+    padding-left: 1%;
+}

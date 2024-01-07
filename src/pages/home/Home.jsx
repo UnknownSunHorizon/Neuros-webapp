@@ -145,7 +145,7 @@ export const Home = () => {
                   src={img5}
                 />
               </div>
-              <div className={styles.fram_4}>
+              <div className={styles.frame_4}>
                 <img
                   className={styles.image_10}
                   alt="Image"

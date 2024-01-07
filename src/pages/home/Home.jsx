@@ -187,7 +187,7 @@ export const Home = () => {
             </div>
           </div>
           <div className={styles.frame_11}>
-            <div className={styles.text_wrapper_13}>Контакты</div>
+            <div className={styles.text_wrapper_13}>Контакты:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; info@neuros.ru &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; help@neuros.pls</div>
           </div>
         </div>
       </div>

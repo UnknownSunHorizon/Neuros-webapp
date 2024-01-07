@@ -333,6 +333,7 @@
   }
   
   .index .image_10 {
+	border-radius: 30px;
 	height: 225px;
 	left: -2px;
 	object-fit: cover;
@@ -364,10 +365,9 @@
 	font-size: 64px;
 	font-weight: 400;
 	letter-spacing: 0;
-	line-height: normal;
-	margin-top: -1.5px;
+	align-self: center;
 	position: relative;
-	width: fit-content;
+	right: 100px;
   }
   
   .index .frame_8 {

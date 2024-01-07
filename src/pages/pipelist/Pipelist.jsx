@@ -25,7 +25,7 @@ const Pipelist = () => {
     const error = () => {
         messageApi.open({
         type: 'error',
-        content: 'This is an error message',
+        content: 'В данный момент не удается создать новый пайплайн. Ошибка со стороны сервера.',
         });
     };
     const warning = () => {
@@ -37,6 +37,7 @@ const Pipelist = () => {
 
       return (
         <div className={styles.pipelines_container}>
+            {contextHolder}
             <Link to="/pipeline">
             <div className={styles.pipelines_block}>
                 <p>Пайплайн</p>
@@ -48,7 +49,7 @@ const Pipelist = () => {
             </div>
             </Link>
             <div className={styles.pipelines_block_add}>
-                <Button onClick={success}><p>+</p></Button>
+                <Button onClick={error}>+</Button>
             </div>
                         
         </div>

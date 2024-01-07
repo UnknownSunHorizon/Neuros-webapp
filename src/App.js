@@ -13,6 +13,8 @@ import Pipelist from "./pages/pipelist/Pipelist";
 import Pipeline_add from "./pages/pipeline_add/Pipeline_add";
 import Pipeline_redact from "./pages/pipeline_redact/Pipeline_redact";
 
+import { Profile } from "./pages/profile/Profile";
+
 
 import { Button, ConfigProvider, Space, theme } from 'antd';
 
@@ -43,6 +45,7 @@ function App() {
           <Route path="/pipeline" element={<Pipeline />} />
           <Route path="/pipeline_add" element={<Pipeline_add />} />
           <Route path="/pipeline_redact" element={<Pipeline_redact />} />
+          <Route path="/profile" element={<Profile />} />
           
         </Route>
         <Route path="*" element={<NotFound />} />

@@ -1,0 +1,317 @@
+.screen {
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 1080px;
+    position: relative;
+  }
+  
+  .screen .div {
+    align-items: center;
+    background-color: #ccfbff;
+    display: flex;
+    gap: 565px;
+    height: 100px;
+    padding: 10px 80px;
+    position: relative;
+    width: 1920px;
+  }
+  
+  .screen .image {
+    height: 39px;
+    margin-left: -2.5px;
+    position: relative;
+    width: 269px;
+  }
+  
+  .screen .view {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 96px;
+    margin-right: -15px;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .screen .text-wrapper {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .screen .text-wrapper-2 {
+    color: #000000;
+    font-family: "Kodchasan", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .screen .text-wrapper-3 {
+    color: #000000;
+    font-family: "Kodchasan", Helvetica;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .screen .view-2 {
+    align-items: flex-start;
+    display: flex;
+    gap: 40px;
+    height: 900px;
+    position: relative;
+    width: 1760px;
+  }
+  
+  .screen .element {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: 900px;
+    position: relative;
+    width: 860px;
+  }
+  
+  .screen .div-2 {
+    align-items: flex-start;
+    border: 4px solid;
+    border-color: #0b1d38;
+    border-radius: 30px;
+    display: flex;
+    gap: 79px;
+    height: 303px;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+    width: 859px;
+  }
+  
+  .screen .div-3 {
+    background-color: #ccfbff;
+    height: 200px;
+    position: relative;
+    width: 200px;
+  }
+  
+  .screen .view-3 {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    height: 283px;
+    margin-bottom: -20px;
+    padding: 10px;
+    position: relative;
+    transform: rotate(180deg);
+    width: 411px;
+  }
+  
+  .screen .text-wrapper-4 {
+    color: #000000;
+    font-family: "Kodchasan", Helvetica;
+    font-size: 30px;
+    font-weight: 600;
+    height: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    transform: rotate(180deg);
+    white-space: nowrap;
+    width: 68px;
+  }
+  
+  .screen .text-wrapper-5 {
+    color: #000000;
+    font-family: "Kodchasan", Helvetica;
+    font-size: 30px;
+    font-weight: 600;
+    height: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    transform: rotate(180deg);
+    white-space: nowrap;
+    width: 150px;
+  }
+  
+  .screen .text-wrapper-6 {
+    color: #000000;
+    font-family: "Kodchasan", Helvetica;
+    font-size: 30px;
+    font-weight: 600;
+    height: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    transform: rotate(180deg);
+    white-space: nowrap;
+    width: 161px;
+  }
+  
+  .screen .text-wrapper-7 {
+    color: #000000;
+    font-family: "Kodchasan", Helvetica;
+    font-size: 30px;
+    font-weight: 600;
+    height: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    transform: rotate(180deg);
+    white-space: nowrap;
+    width: 176px;
+  }
+  
+  .screen .text-wrapper-8 {
+    color: #000000;
+    font-family: "Kodchasan", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    height: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    transform: rotate(180deg);
+    white-space: nowrap;
+    width: 161px;
+  }
+  
+  .screen .view-4 {
+    align-items: center;
+    background-color: #ccfbff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 547px;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    width: 860px;
+  }
+  
+  .screen .text-wrapper-9 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .screen .frame {
+    align-items: flex-start;
+    display: flex;
+    gap: 140px;
+    height: 481px;
+    margin-bottom: -10px;
+    margin-left: -9.5px;
+    margin-right: -9.5px;
+    padding: 10px 50px;
+    position: relative;
+    width: 859px;
+  }
+  
+  .screen .p {
+    color: #000000;
+    font-family: "Kodchasan", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .screen .span {
+    font-weight: 600;
+  }
+  
+  .screen .text-wrapper-10 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  
+  .screen .text-wrapper-11 {
+    font-size: 24px;
+  }
+  
+  .screen .element-2 {
+    color: #000000;
+    font-family: "Kodchasan", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .screen .text-wrapper-12 {
+    font-weight: 500;
+  }
+  
+  .screen .text-wrapper-13 {
+    font-size: 32px;
+    font-weight: 600;
+  }
+  
+  .screen .element-3 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 900px;
+    position: relative;
+    width: 860px;
+  }
+  
+  .screen .text-wrapper-14 {
+    color: #000000;
+    font-family: "Kodchasan", Helvetica;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .screen .img {
+    height: 145px;
+    position: relative;
+    width: 860px;
+  }
+  
+  .screen .frame-2 {
+    height: 68px;
+    position: relative;
+    width: 860px;
+  }
+  

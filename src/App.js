@@ -34,6 +34,11 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/reviews" element={<Reviews />} />
+          <Route path="/pipelist" element={<Pipelist />} />
+          <Route path="/pipeline" element={<Pipeline />} />
+          <Route path="/pipeline_add" element={<Pipeline_add />} />
+          <Route path="/pipeline_redact" element={<Pipeline_redact />} />
+          
         </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>

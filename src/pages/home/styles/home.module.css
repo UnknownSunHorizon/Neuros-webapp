@@ -432,13 +432,21 @@
 	position: absolute;
 	top: 374px;
 	width: 202px;
+
+	color: #000000;
+	font-family: "Kodchasan", Helvetica;
+	font-size: 30px;
+	font-weight: 400;
+	padding: auto;
+	text-align: center;
+	line-height: 79px;
   }
   
   .index .text_wrapper_9 {
 	color: #000000;
-	font-family: "Inter", Helvetica;
-	font-size: 40px;
-	font-weight: 400;
+	font-family: "Kodchasan", Helvetica;
+	font-size: 30px;
+	font-weight: 200;
 	left: 22px;
 	letter-spacing: 0;
 	line-height: normal;
@@ -476,6 +484,14 @@
 	position: absolute;
 	top: 374px;
 	width: 202px;
+
+	color: #000000;
+	font-family: "Kodchasan", Helvetica;
+	font-size: 30px;
+	font-weight: 400;
+	padding: auto;
+	text-align: center;
+	line-height: 79px;
   }
   
   .index .frame_10 {
@@ -510,6 +526,14 @@
 	position: absolute;
 	top: 372px;
 	width: 202px;
+
+	color: #000000;
+	font-family: "Kodchasan", Helvetica;
+	font-size: 30px;
+	font-weight: 400;
+	padding: auto;
+	text-align: center;
+	line-height: 79px;
   }
   
   .index .text_wrapper_12 {

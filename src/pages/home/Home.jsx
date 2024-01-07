@@ -44,15 +44,12 @@ export const Home = () => {
             />
             <div className={styles.lorem_ipsum_dolor_wrapper}>
               <p className={styles.lorem_ipsum_dolor}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.
+                Встречайте NEUROS - интерактивный агрегатор нейросетей, созданный профессионалами для профессионалов 
                 <br />
                 <br />
-                Amet justo donec enim diam vulputate ut pharetra sit amet. Amet commodo nulla facilisi nullam. Volutpat
-                consequat mauris nunc congue nisi vitae suscipit tellus mauris. <br />
+                Используйте нейросети из исчерпывающего перечня не покидая сайт <br /> Формируйте пайплайны из нейросетей и автоматизируйте производство вашего контента<br />
                 <br />
-                Ornare arcu odio ut sem nulla pharetra diam sit amet. Felis eget velit aliquet sagittis id consectetur
-                purus ut.
+                Попробуйте бесплатный доступ и оцените все основные функции NEUROS даже не притрагиваясь к оплате!
               </p>
             </div>
             <div className={styles.div_wrapper}>
@@ -163,9 +160,9 @@ export const Home = () => {
                 <div className={styles.text_wrapper_7}>Приобрести</div>
               </div>
               <div className={styles.text_wrapper_8}>Стартовый</div>
-              <div className={styles.rectangle} />
+              <div className={styles.rectangle} >299 ₽/месяц</div>
               <div className={styles.text_wrapper_9}>
-                -<br />-<br />-<br />-<br />-
+                - все основные нейросети<br />- 3ГБ для хранения результатов<br />- личный ассистент<br />- до 15 пайплайнов<br />-
               </div>
             </div>
             <div className={styles.frame_9}>
@@ -173,7 +170,7 @@ export const Home = () => {
                 <div className={styles.text_wrapper_7}>Приобрести</div>
               </div>
               <div className={styles.text_wrapper_10}>Продвинутый</div>
-              <div className={styles.rectangle_2} />
+              <div className={styles.rectangle_2} >699 ₽/месяц</div>
               <div className={styles.text_wrapper_9}>
                 -<br />-<br />-<br />-<br />-
               </div>
@@ -183,9 +180,9 @@ export const Home = () => {
                 <div className={styles.text_wrapper_7}>Приобрести</div>
               </div>
               <div className={styles.text_wrapper_11}>Профессиональный</div>
-              <div className={styles.rectangle_3} />
+              <div className={styles.rectangle_3} >1299 ₽/месяц</div>
               <div className={styles.text_wrapper_12}>
-                -<br />-<br />-<br />-<br />-
+                - <br />- <br />-<br />-<br />-
               </div>
             </div>
           </div>

@@ -1,0 +1,25 @@
+#authorization_background{
+    background-image: url(https://cdn.animaapp.com/projects/659a96dbde0bbd56d7a8ad3d/releases/659a97a83eeab1d3632e9f59/img/-------.png);
+	background-attachment: fixed;
+	background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1028px;
+}
+
+#authorization_container{
+    width: 570px;
+    height: 872.5px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#authorization_title{
+    color: #000;
+    font-family: "Inter", Helvetica;
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: 0;
+	line-height: normal;
+}

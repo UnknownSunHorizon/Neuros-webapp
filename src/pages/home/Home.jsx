@@ -160,9 +160,9 @@ export const Home = () => {
                 <div className={styles.text_wrapper_7}>Приобрести</div>
               </div>
               <div className={styles.text_wrapper_8}>Стартовый</div>
-              <div className={styles.rectangle} >299 ₽/месяц</div>
+              <div className={styles.rectangle} >299 Р/месяц</div>
               <div className={styles.text_wrapper_9}>
-                - все основные нейросети<br />- 3ГБ для хранения результатов<br />- личный ассистент<br />- до 15 пайплайнов<br />-
+                - все основные нейросети<br />- 3ГБ для хранения результатов<br />- все настройки всех нейросетей<br />- до 15 пайплайнов<br />- личный ИИ-ассистент
               </div>
             </div>
             <div className={styles.frame_9}>
@@ -170,9 +170,9 @@ export const Home = () => {
                 <div className={styles.text_wrapper_7}>Приобрести</div>
               </div>
               <div className={styles.text_wrapper_10}>Продвинутый</div>
-              <div className={styles.rectangle_2} >699 ₽/месяц</div>
+              <div className={styles.rectangle_2} >699 Р/месяц</div>
               <div className={styles.text_wrapper_9}>
-                -<br />-<br />-<br />-<br />-
+                - доступны все нейросети<br />- 10ГБ для хранения результатов<br />- различные модели для RVC, Dall-E, GPT<br />- преимущества прошлых планов
               </div>
             </div>
             <div className={styles.frame_10}>
@@ -180,9 +180,9 @@ export const Home = () => {
                 <div className={styles.text_wrapper_7}>Приобрести</div>
               </div>
               <div className={styles.text_wrapper_11}>Профессиональный</div>
-              <div className={styles.rectangle_3} >1299 ₽/месяц</div>
+              <div className={styles.rectangle_3} >1299 Р/месяц</div>
               <div className={styles.text_wrapper_12}>
-                - <br />- <br />-<br />-<br />-
+              - приоритетный доступ<br />- 30ГБ для хранения результатов<br />- уникальные пресеты настроек<br />- неограниченные пайплайны<br />- преимущества прошлых планов
               </div>
             </div>
           </div>

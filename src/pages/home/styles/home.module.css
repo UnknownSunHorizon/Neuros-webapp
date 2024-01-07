@@ -4,6 +4,7 @@
 	flex-direction: column;
 	width: 100%;
 	overflow: hidden;
+	height: 3360px;
   }
   
   .index .view {
@@ -500,6 +501,7 @@
 	line-height: normal;
 	position: absolute;
 	top: 41px;
+	
   }
   
   .index .rectangle_3 {
@@ -532,6 +534,7 @@
 	margin-right: -82px;
 	position: relative;
 	width: 1920px;
+	right: 100px;
   }
   
   .index .text_wrapper_13 {

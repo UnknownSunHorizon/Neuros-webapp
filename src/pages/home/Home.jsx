@@ -21,29 +21,29 @@ import {Button} from 'antd';
 
 export const Home = () => {
     return (
-      <div className={styles.index}>
-        <div className={styles.view}>
-          <div className={styles.div}>
+      <div id={styles.index}>
+        <div id={styles.view}>
+          <div id={styles.div}>
             <img
-              className={styles.image}
+              id={styles.image}
               alt="Image"
               src={header_logo}
             />
-            <div className={styles.navbar}>
-              <div className={styles.text_wrapper}>Об Агрегаторе</div>
-              <div className={styles.text_wrapper}>О подписках</div>
-              <div className={styles.text_wrapper}>Зарегистрироваться</div>
-              <div className={styles.text_wrapper}>Авторизоваться</div>
+            <div id={styles.navbar}>
+              <div id={styles.text_wrapper}>Об Агрегаторе</div>
+              <div id={styles.text_wrapper}>О подписках</div>
+              <div id={styles.text_wrapper}>Зарегистрироваться</div>
+              <div id={styles.text_wrapper}>Авторизоваться</div>
             </div>
           </div>
-          <div className={styles.view_2}>
+          <div id={styles.view_2}>
             <img
-              className={styles.img}
+              id={styles.img}
               alt="Image"
               src={aggregator_logo}
             />
-            <div className={styles.lorem_ipsum_dolor_wrapper}>
-              <p className={styles.lorem_ipsum_dolor}>
+            <div id={styles.lorem_ipsum_dolor_wrapper}>
+              <p id={styles.lorem_ipsum_dolor}>
                 Встречайте NEUROS - интерактивный агрегатор нейросетей, созданный профессионалами для профессионалов 
                 <br />
                 <br />
@@ -52,99 +52,99 @@ export const Home = () => {
                 Попробуйте бесплатный доступ и оцените все основные функции NEUROS даже не притрагиваясь к оплате!
               </p>
             </div>
-            <div className={styles.div_wrapper}>
-              <div className={styles.text_wrapper_2}>ЗАРЕГИСТРИРОВАТЬСЯ</div>
+            <div id={styles.div_wrapper}>
+              <div id={styles.text_wrapper_2}>ЗАРЕГИСТРИРОВАТЬСЯ</div>
             </div>
           </div>
         </div>
-        <div className={styles.view_3}>
-          <div className={styles.text_wrapper_3}>O NEUROS</div>
-          <div className={styles.frame}>
-            <div className={styles.frame_2}>
-              <div className={styles.frame_3}>
-                <div className={styles.text_wrapper_4}>
+        <div id={styles.view_3}>
+          <div id={styles.text_wrapper_3}>O NEUROS</div>
+          <div id={styles.frame}>
+            <div id={styles.frame_2}>
+              <div id={styles.frame_3}>
+                <div id={styles.text_wrapper_4}>
                   Создавайте
                   <br />
                   изображения
                 </div>
               </div>
-              <div className={styles.image_wrapper}>
+              <div id={styles.image_wrapper}>
                 <img
-                  className={styles.image_2}
+                  id={styles.image_2}
                   alt="Image"
                   src={img10}
                 />
               </div>
-              <div className={styles.img_wrapper}>
+              <div id={styles.img_wrapper}>
                 <img
-                  className={styles.image_3}
+                  id={styles.image_3}
                   alt="Image"
                   src={img2}
                 />
               </div>
-              <div className={styles.frame_4}>
+              <div id={styles.frame_4}>
                 <img
-                  className={styles.image_4}
+                  id={styles.image_4}
                   alt="Image"
                   src={img1}
                 />
               </div>
             </div>
-            <div className={styles.frame_2}>
-              <div className={styles.frame_5}>
+            <div id={styles.frame_2}>
+              <div id={styles.frame_5}>
                 <img
-                  className={styles.image_5}
+                  id={styles.image_5}
                   alt="Image"
                   src={img9}
                 />
               </div>
-              <div className={styles.image_wrapper}>
+              <div id={styles.image_wrapper}>
                 <img
-                  className={styles.image_6}
+                  id={styles.image_6}
                   alt="Image"
                   src={img4}
                 />
               </div>
-              <div className={styles.img_wrapper}>
+              <div id={styles.img_wrapper}>
                 <img
-                  className={styles.image_7}
+                  id={styles.image_7}
                   alt="Image"
                   src={img7}
                 />
               </div>
-              <div className={styles.frame_6}>
-                <div className={styles.text_wrapper_5}>
+              <div id={styles.frame_6}>
+                <div id={styles.text_wrapper_5}>
                   Пишите
                   <br />
                   тексты
                 </div>
               </div>
             </div>
-            <div className={styles.frame_2}>
-              <div className={styles.frame_5}>
+            <div id={styles.frame_2}>
+              <div id={styles.frame_5}>
                 <img
-                  className={styles.image_8}
+                  id={styles.image_8}
                   alt="Image"
                   src={img8}
                 />
               </div>
-              <div className={styles.frame_7}>
-                <div className={styles.text_wrapper_4}>
+              <div id={styles.frame_7}>
+                <div id={styles.text_wrapper_4}>
                   Генерируйте
                   <br />
                   аудио
                 </div>
               </div>
-              <div className={styles.img_wrapper}>
+              <div id={styles.img_wrapper}>
                 <img
-                  className={styles.image_9}
+                  id={styles.image_9}
                   alt="Image"
                   src={img5}
                 />
               </div>
-              <div className={styles.frame_4}>
+              <div id={styles.frame_4}>
                 <img
-                  className={styles.image_10}
+                  id={styles.image_10}
                   alt="Image"
                   src={img6}
                 />
@@ -152,42 +152,42 @@ export const Home = () => {
             </div>
           </div>
         </div>
-        <div className={styles.view_4}>
-          <div className={styles.text_wrapper_6}>Тарифы</div>
-          <div className={styles.frame_8}>
-            <div className={styles.frame_9}>
-              <div className={styles.overlap_group}>
-                <div className={styles.text_wrapper_7}>Приобрести</div>
+        <div id={styles.view_4}>
+          <div id={styles.text_wrapper_6}>Тарифы</div>
+          <div id={styles.frame_8}>
+            <div id={styles.frame_9}>
+              <div id={styles.overlap_group}>
+                <div id={styles.text_wrapper_7}>Приобрести</div>
               </div>
-              <div className={styles.text_wrapper_8}>Стартовый</div>
-              <div className={styles.rectangle} >299 Р/месяц</div>
-              <div className={styles.text_wrapper_9}>
+              <div id={styles.text_wrapper_8}>Стартовый</div>
+              <div id={styles.rectangle} >299 Р/месяц</div>
+              <div id={styles.text_wrapper_9}>
                 - все основные нейросети<br />- 3ГБ для хранения результатов<br />- все настройки всех нейросетей<br />- до 15 пайплайнов<br />- личный ИИ-ассистент
               </div>
             </div>
-            <div className={styles.frame_9}>
-              <div className={styles.overlap}>
-                <div className={styles.text_wrapper_7}>Приобрести</div>
+            <div id={styles.frame_9}>
+              <div id={styles.overlap}>
+                <div id={styles.text_wrapper_7}>Приобрести</div>
               </div>
-              <div className={styles.text_wrapper_10}>Продвинутый</div>
-              <div className={styles.rectangle_2} >699 Р/месяц</div>
-              <div className={styles.text_wrapper_9}>
+              <div id={styles.text_wrapper_10}>Продвинутый</div>
+              <div id={styles.rectangle_2} >699 Р/месяц</div>
+              <div id={styles.text_wrapper_9}>
                 - доступны все нейросети<br />- 10ГБ для результатов <br />- различные модели для RVC, Dall-E, GPT <br /> - до 50 пайплайнов<br />- преимущества прошлых планов
               </div>
             </div>
-            <div className={styles.frame_10}>
-              <div className={styles.overlap}>
-                <div className={styles.text_wrapper_7}>Приобрести</div>
+            <div id={styles.frame_10}>
+              <div id={styles.overlap}>
+                <div id={styles.text_wrapper_7}>Приобрести</div>
               </div>
-              <div className={styles.text_wrapper_11}>Профессиональный</div>
-              <div className={styles.rectangle_3} >1299 Р/месяц</div>
-              <div className={styles.text_wrapper_12}>
+              <div id={styles.text_wrapper_11}>Профессиональный</div>
+              <div id={styles.rectangle_3} >1299 Р/месяц</div>
+              <div id={styles.text_wrapper_12}>
               - приоритетный доступ<br />- 30ГБ для результатов<br />- уникальные пресеты<br />- нет ограничений на пайплайны<br />- преимущества прошлых планов
               </div>
             </div>
           </div>
-          <div className={styles.frame_11}>
-            <div className={styles.text_wrapper_13}>Контакты:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; info@neuros.ru &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; help@neuros.pls</div>
+          <div id={styles.frame_11}>
+            <div id={styles.text_wrapper_13}>Контакты:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; info@neuros.ru &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; help@neuros.pls</div>
           </div>
         </div>
       </div>

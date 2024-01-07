@@ -23,3 +23,14 @@
     justify-content: end;
     padding-left: 1%;
 }
+
+.pipelines_block_add{
+    width: 21vw;
+	height: 23vh;
+    background-image: url("https://placehold.co/410x250.png");
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}

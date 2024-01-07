@@ -3,7 +3,7 @@
 	flex-direction: column;
 	width: 100%;
 	overflow: hidden;
-	height: 3360px;
+	height: 3140px;
 	background-image: url(https://cdn.animaapp.com/projects/659a96dbde0bbd56d7a8ad3d/releases/659a97a83eeab1d3632e9f59/img/-------.png);
 	background-attachment: fixed;
 	background-size: cover;
@@ -138,7 +138,7 @@
 	display: flex;
 	flex-direction: column;
 	gap: 51px;
-	height: 1080px;
+	height: 800px;
 	padding: 60px 0px;
 	position: relative;
 	width: 1920px;
@@ -351,7 +351,7 @@
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
-	gap: 116px;
+	gap: 60px;
 	height: 1080px;
 	overflow: hidden;
 	padding: 60px 0px;
@@ -384,7 +384,7 @@
 	border: 1px solid;
 	border-color: #000000;
 	border-radius: 30px;
-	height: 584px;
+	height: 600px;
 	overflow: hidden;
 	position: relative;
 	width: 424px;
@@ -397,7 +397,7 @@
 	height: 61px;
 	left: 22px;
 	position: absolute;
-	top: 482px;
+	top: 500px;
 	width: 379px;
   }
   
@@ -433,7 +433,7 @@
 	height: 79px;
 	left: 110px;
 	position: absolute;
-	top: 374px;
+	top: 390px;
 	width: 202px;
 
 	color: #000000;
@@ -456,6 +456,7 @@
 	position: absolute;
 	top: 108px;
 	width: 379px;
+	
   }
   
   #index #overlap {
@@ -464,7 +465,7 @@
 	height: 61px;
 	left: 23px;
 	position: absolute;
-	top: 482px;
+	top: 500px;
 	width: 379px;
   }
   
@@ -485,7 +486,7 @@
 	height: 79px;
 	left: 109px;
 	position: absolute;
-	top: 374px;
+	top: 390px;
 	width: 202px;
 
 	color: #000000;
@@ -502,7 +503,7 @@
 	border: 1px solid;
 	border-color: #000000;
 	border-radius: 30px;
-	height: 584px;
+	height: 600px;
 	margin-right: -1px;
 	overflow: hidden;
 	position: relative;
@@ -527,7 +528,7 @@
 	height: 79px;
 	left: 106px;
 	position: absolute;
-	top: 372px;
+	top: 390px;
 	width: 202px;
 
 	color: #000000;
@@ -561,7 +562,7 @@
 	margin-right: -82px;
 	position: relative;
 	width: 1920px;
-	right: 100px;
+	margin-top: 100px;
   }
   
   #index #text_wrapper_13 {

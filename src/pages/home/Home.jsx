@@ -30,9 +30,9 @@ export const Home = () => {
               src={header_logo}
             />
             <div className={styles.navbar}>
-              <div className={styles.text_wrapper}>О Агрегаторе</div>
+              <div className={styles.text_wrapper}>Об Агрегаторе</div>
               <div className={styles.text_wrapper}>О подписках</div>
-              <div className={styles.text_wrapper}>Зарегестрироваться</div>
+              <div className={styles.text_wrapper}>Зарегистрироваться</div>
               <div className={styles.text_wrapper}>Авторизоваться</div>
             </div>
           </div>
@@ -56,7 +56,7 @@ export const Home = () => {
               </p>
             </div>
             <div className={styles.div_wrapper}>
-              <div className={styles.text_wrapper_2}>ЗАРЕГЕСТРИРОВАТЬСЯ</div>
+              <div className={styles.text_wrapper_2}>ЗАРЕГИСТРИРОВАТЬСЯ</div>
             </div>
           </div>
         </div>

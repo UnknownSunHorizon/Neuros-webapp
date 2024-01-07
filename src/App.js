@@ -34,8 +34,9 @@ function App() {
     }}>
     <Router>
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route element={<MainLayout />}>
-          <Route path="/" element={<Home />} />
+          
           <Route path="/about" element={<About />} />
           <Route path="/reviews" element={<Reviews />} />
           <Route path="/pipelist" element={<Pipelist />} />

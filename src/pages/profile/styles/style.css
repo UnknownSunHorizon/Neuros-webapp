@@ -1,14 +1,15 @@
-.screen {
+#screen {
     align-items: center;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
     gap: 40px;
     height: 1080px;
+    width: 1920px;
     position: relative;
   }
   
-  .screen .div {
+  #screen #div {
     align-items: center;
     background-color: #ccfbff;
     display: flex;
@@ -19,14 +20,14 @@
     width: 1920px;
   }
   
-  .screen .image {
+  #screen #image {
     height: 39px;
     margin-left: -2.5px;
     position: relative;
     width: 269px;
   }
   
-  .screen .view {
+  #screen #view {
     align-items: center;
     display: inline-flex;
     flex: 0 0 auto;
@@ -36,7 +37,7 @@
     position: relative;
   }
   
-  .screen .text-wrapper {
+  #screen #text-wrapper {
     color: #000000;
     font-family: "Inter", Helvetica;
     font-size: 30px;
@@ -48,7 +49,7 @@
     width: fit-content;
   }
   
-  .screen .text-wrapper-2 {
+  #screen #text-wrapper-2 {
     color: #000000;
     font-family: "Kodchasan", Helvetica;
     font-size: 30px;
@@ -60,7 +61,7 @@
     width: fit-content;
   }
   
-  .screen .text-wrapper-3 {
+  #screen #text-wrapper-3 {
     color: #000000;
     font-family: "Kodchasan", Helvetica;
     font-size: 30px;
@@ -72,16 +73,16 @@
     width: fit-content;
   }
   
-  .screen .view-2 {
+  #screen #view-2 {
     align-items: flex-start;
     display: flex;
     gap: 40px;
     height: 900px;
     position: relative;
-    width: 1760px;
+    width: 1800px;
   }
   
-  .screen .element {
+  #screen #element {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -91,7 +92,7 @@
     width: 860px;
   }
   
-  .screen .div-2 {
+  #screen #div-2 {
     align-items: flex-start;
     border: 4px solid;
     border-color: #0b1d38;
@@ -105,15 +106,15 @@
     width: 859px;
   }
   
-  .screen .div-3 {
+  #screen #div-3 {
     background-color: #ccfbff;
     height: 200px;
     position: relative;
     width: 200px;
   }
   
-  .screen .view-3 {
-    align-items: flex-end;
+  #screen #view-3 {
+    
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -121,11 +122,11 @@
     margin-bottom: -20px;
     padding: 10px;
     position: relative;
-    transform: rotate(180deg);
+    
     width: 411px;
   }
   
-  .screen .text-wrapper-4 {
+  #screen #text-wrapper-4 {
     color: #000000;
     font-family: "Kodchasan", Helvetica;
     font-size: 30px;
@@ -134,12 +135,12 @@
     letter-spacing: 0;
     line-height: normal;
     position: relative;
-    transform: rotate(180deg);
+    
     white-space: nowrap;
     width: 68px;
   }
   
-  .screen .text-wrapper-5 {
+  #screen #text-wrapper-5 {
     color: #000000;
     font-family: "Kodchasan", Helvetica;
     font-size: 30px;
@@ -148,12 +149,12 @@
     letter-spacing: 0;
     line-height: normal;
     position: relative;
-    transform: rotate(180deg);
+    
     white-space: nowrap;
     width: 150px;
   }
   
-  .screen .text-wrapper-6 {
+  #screen #text-wrapper-6 {
     color: #000000;
     font-family: "Kodchasan", Helvetica;
     font-size: 30px;
@@ -162,12 +163,12 @@
     letter-spacing: 0;
     line-height: normal;
     position: relative;
-    transform: rotate(180deg);
+    
     white-space: nowrap;
     width: 161px;
   }
   
-  .screen .text-wrapper-7 {
+  #screen #text-wrapper-7 {
     color: #000000;
     font-family: "Kodchasan", Helvetica;
     font-size: 30px;
@@ -176,12 +177,12 @@
     letter-spacing: 0;
     line-height: normal;
     position: relative;
-    transform: rotate(180deg);
+    
     white-space: nowrap;
     width: 176px;
   }
   
-  .screen .text-wrapper-8 {
+  #screen #text-wrapper-8 {
     color: #000000;
     font-family: "Kodchasan", Helvetica;
     font-size: 20px;
@@ -190,12 +191,12 @@
     letter-spacing: 0;
     line-height: normal;
     position: relative;
-    transform: rotate(180deg);
+    
     white-space: nowrap;
     width: 161px;
   }
   
-  .screen .view-4 {
+  #screen #view-4 {
     align-items: center;
     background-color: #ccfbff;
     border-radius: 20px;
@@ -209,7 +210,7 @@
     width: 860px;
   }
   
-  .screen .text-wrapper-9 {
+  #screen #text-wrapper-9 {
     color: #000000;
     font-family: "Inter", Helvetica;
     font-size: 40px;
@@ -222,7 +223,7 @@
     width: fit-content;
   }
   
-  .screen .frame {
+  #screen #frame {
     align-items: flex-start;
     display: flex;
     gap: 140px;
@@ -233,9 +234,10 @@
     padding: 10px 50px;
     position: relative;
     width: 859px;
+    left: 60px;
   }
   
-  .screen .p {
+  #screen #p {
     color: #000000;
     font-family: "Kodchasan", Helvetica;
     font-size: 36px;
@@ -247,20 +249,20 @@
     width: fit-content;
   }
   
-  .screen .span {
+  #screen #span {
     font-weight: 600;
   }
   
-  .screen .text-wrapper-10 {
+  #screen #text-wrapper-10 {
     font-size: 40px;
     font-weight: 600;
   }
   
-  .screen .text-wrapper-11 {
+  #screen #text-wrapper-11 {
     font-size: 24px;
   }
   
-  .screen .element-2 {
+  #screen #element-2 {
     color: #000000;
     font-family: "Kodchasan", Helvetica;
     font-size: 24px;
@@ -272,46 +274,67 @@
     width: fit-content;
   }
   
-  .screen .text-wrapper-12 {
+  #screen #text-wrapper-12 {
     font-weight: 500;
   }
   
-  .screen .text-wrapper-13 {
+  #screen #text-wrapper-13 {
     font-size: 32px;
     font-weight: 600;
   }
   
-  .screen .element-3 {
+  #screen #element-3 {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    height: 900px;
+    position: relative;
+    width: 880px;
+    overflow-y:scroll;
+    left:30px;
+    padding: 10px;
+    row-gap: 10px;
+  }
+  
+  #screen #text-wrapper-14 {
+    color: #000000;
+    font-family: "Kodchasan", Helvetica;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+
+  #files-container{
     align-items: center;
     display: flex;
     flex-direction: column;
     gap: 10px;
     height: 900px;
     position: relative;
-    width: 860px;
+    width: 900px;
+    gap: 28px;
   }
+
+.file{
+  height: 145px;
+  width: 150px;
+  background-color: #0C1E38;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-end;
   
-  .screen .text-wrapper-14 {
-    color: #000000;
-    font-family: "Kodchasan", Helvetica;
-    font-size: 36px;
-    font-weight: 600;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-top: -1px;
-    position: relative;
-    width: fit-content;
-  }
+  padding-bottom: 5px;
+
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
   
-  .screen .img {
-    height: 145px;
-    position: relative;
-    width: 860px;
-  }
-  
-  .screen .frame-2 {
-    height: 68px;
-    position: relative;
-    width: 860px;
-  }
-  
+}

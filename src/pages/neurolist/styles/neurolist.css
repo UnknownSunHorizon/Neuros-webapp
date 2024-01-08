@@ -1,0 +1,191 @@
+.screen {
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 1080px;
+    position: relative;
+  }
+  
+  .screen .div {
+    align-items: center;
+    background-color: #ccfbff;
+    display: flex;
+    gap: 565px;
+    height: 100px;
+    padding: 10px 80px;
+    position: relative;
+    width: 1920px;
+  }
+  
+  .screen .image {
+    height: 39px;
+    margin-left: -2.5px;
+    position: relative;
+    width: 269px;
+  }
+  
+  .screen .navbar {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 96px;
+    margin-right: -16px;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .screen .text-wrapper {
+    color: #000000;
+    font-family: "Kodchasan", Helvetica;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .screen .text-wrapper-2 {
+    color: #000000;
+    font-family: "Kodchasan", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .screen .view {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 900px;
+    position: relative;
+    width: 1760px;
+  }
+  
+  .screen .view-2 {
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #000000;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    width: 1760px;
+    padding-bottom: 50px;
+  }
+  
+  .screen .view-3 {
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 40px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 10px 0px;
+    position: relative;
+    width: 1760px;
+  }
+  
+  .screen .view-4 {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    height: 41px;
+    padding: 10px;
+    position: relative;
+    width: 260px;
+  }
+  
+  .screen .polygon {
+    height: 24.63px;
+    margin-bottom: -5.13px;
+    position: relative;
+    width: 31.11px;
+  }
+  
+  .screen .text-wrapper-3 {
+    color: #000000;
+    font-family: "Kodchasan", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: -8px;
+    margin-right: -5px;
+    margin-top: -10px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .screen .line {
+    height: 3px;
+    position: relative;
+    width: 1460px;
+    color:#000000;
+    background-color: #000000;
+    border-radius: 10px;
+  }
+  
+  .screen .frame {
+    align-content: space-between;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    height: 430px;
+    margin-left: -10px;
+    margin-right: -10px;
+    position: relative;
+    width: 1760px;
+    gap:40px;
+  }
+  
+  .screen .rectangle {
+    background-color: #ccfbff;
+    height: 200px;
+    position: relative;
+    width: 260px;
+  }
+  
+  .screen .view-5 {
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 40px;
+    padding: 10px 0px;
+    position: relative;
+    width: 1760px;
+    
+  }
+  
+  .screen .img {
+    height: 31.11px;
+    margin-bottom: -5.05px;
+    margin-top: -5.05px;
+    position: relative;
+    width: 24.63px;
+  }
+  
+  .screen .text-wrapper-4 {
+    color: #000000;
+    font-family: "Kodchasan", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: -8px;
+    margin-top: -10px;
+    position: relative;
+    width: fit-content;
+  }
+  

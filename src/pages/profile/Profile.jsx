@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/style.css";
+import "./styles/profile.css";
 
 import {Link} from "react-router-dom";
 import {Button} from "antd";

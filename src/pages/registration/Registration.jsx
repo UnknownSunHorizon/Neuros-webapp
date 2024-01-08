@@ -1,58 +1,41 @@
 import styles from './styles/registration.module.css';
-
 import React from 'react';
-
-import { LaptopOutlined, NotificationOutlined, UserOutlined } from '@ant-design/icons';
-import { Breadcrumb, Layout, Menu, theme, Button, message, Space  } from 'antd';
-import MenuItem from 'antd/es/menu/MenuItem';
-
 import {Link} from "react-router-dom";
 
-const { Header, Content, Sider } = Layout;
+import vk_logo from "./assets/vk_logo.png";
+import google_logo from "./assets/google_logo.jpg";
+import facebook_logo from "./assets/facebook_logo.svg";
 
-const Pipelist = () => {
-    const {
-        token: { colorBgContainer },
-    } = theme.useToken();
-  
-    const [messageApi, contextHolder] = message.useMessage();
-    const success = () => {
-        messageApi.open({
-        type: 'success',
-        content: 'This is a success message',
-        });
-    };
-    const error = () => {
-        messageApi.open({
-        type: 'error',
-        content: 'This is an error message',
-        });
-    };
-    const warning = () => {
-        messageApi.open({
-        type: 'warning',
-        content: 'This is a warning message',
-        });
-    };
-
-      return (
-        <div className={styles.pipelines_container}>
-            <Link to="/pipeline">
-            <div className={styles.pipelines_block}>
-                <p>Пайплайн</p>
-            </div>
-            </Link>
-            <Link to="/pipeline">
-            <div className={styles.pipelines_block}>
-                <p>Пайплайн</p>
-            </div>
-            </Link>
-            <div className={styles.pipelines_block_add}>
-                <Button onClick={success}><p>+</p></Button>
-            </div>
-                        
+export const Registration = () => {
+    return (
+        <div id={styles.registration_background}>
+            <div id={styles.registration_container}>
+                <div id={styles.registration_title}>Регистрация</div>
+                <div id={styles.registration_inputblock}>
+                    <div className={styles.registration_login}>
+                        <span className={styles.registration_subtitle}>Почта</span>
+                        <input className={styles.registration_input} type="text"></input>
+                    </div>
+                    <div className={styles.registration_login}>
+                        <span className={styles.registration_subtitle}>Пароль</span>
+                        <input className={styles.registration_input} type="text"></input>
+                    </div>
+                    <div className={styles.registration_login}>
+                        <span className={styles.registration_subtitle}>Повторите пароль</span>
+                        <input className={styles.registration_input} type="text"></input>
+                    </div>
+                </div>
+                <button id={styles.registration_button}>Зарегистрироваться</button>
+                <span id={styles.registration_toAuthorization}>Уже есть аккаунт? <a id={styles.registration_link}>Войти</a></span>
+                <span id={styles.registration_with_help}>Или зарегистрируйтесь с помощью</span>
+                <div id={styles.registration_icons}>
+                    <div id={styles.registration_icon_1}><img id={styles.registration_vk} alt="vk_logo" src={vk_logo} /></div>
+                    <img id={styles.registration_icon_2} alt="google_logo" src={google_logo} />
+                    <img id={styles.registration_icon_3} alt="facebook_logo" src={facebook_logo} />
+                </div>
+            </div>                        
         </div>
-      );
+    );
 }
 
-export default Pipelist
+export default Registration

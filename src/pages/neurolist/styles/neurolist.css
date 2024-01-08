@@ -1,4 +1,4 @@
-.screen {
+.neurolist {
     align-items: center;
     background-color: #ffffff;
     display: flex;
@@ -8,7 +8,7 @@
     position: relative;
   }
   
-  .screen .div {
+  .neurolist .div {
     align-items: center;
     background-color: #ccfbff;
     display: flex;
@@ -19,14 +19,14 @@
     width: 1920px;
   }
   
-  .screen .image {
+  .neurolist .image {
     height: 39px;
     margin-left: -2.5px;
     position: relative;
     width: 269px;
   }
   
-  .screen .navbar {
+  .neurolist .navbar {
     align-items: center;
     display: inline-flex;
     flex: 0 0 auto;
@@ -36,7 +36,7 @@
     position: relative;
   }
   
-  .screen .text-wrapper {
+  .neurolist .text-wrapper {
     color: #000000;
     font-family: "Kodchasan", Helvetica;
     font-size: 30px;
@@ -48,7 +48,7 @@
     width: fit-content;
   }
   
-  .screen .text-wrapper-2 {
+  .neurolist .text-wrapper-2 {
     color: #000000;
     font-family: "Kodchasan", Helvetica;
     font-size: 30px;
@@ -60,7 +60,7 @@
     width: fit-content;
   }
   
-  .screen .view {
+  .neurolist .view {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -70,7 +70,7 @@
     width: 1760px;
   }
   
-  .screen .view-2 {
+  .neurolist .view-2 {
     align-items: center;
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -85,7 +85,7 @@
     padding-bottom: 50px;
   }
   
-  .screen .view-3 {
+  .neurolist .view-3 {
     align-items: center;
     display: flex;
     flex: 0 0 auto;
@@ -97,7 +97,7 @@
     width: 1760px;
   }
   
-  .screen .view-4 {
+  .neurolist .view-4 {
     align-items: center;
     display: flex;
     gap: 10px;
@@ -107,14 +107,14 @@
     width: 260px;
   }
   
-  .screen .polygon {
+  .neurolist .polygon {
     height: 24.63px;
     margin-bottom: -5.13px;
     position: relative;
     width: 31.11px;
   }
   
-  .screen .text-wrapper-3 {
+  .neurolist .text-wrapper-3 {
     color: #000000;
     font-family: "Kodchasan", Helvetica;
     font-size: 30px;
@@ -128,7 +128,7 @@
     width: fit-content;
   }
   
-  .screen .line {
+  .neurolist .line {
     height: 3px;
     position: relative;
     width: 1460px;
@@ -137,7 +137,7 @@
     border-radius: 10px;
   }
   
-  .screen .frame {
+  .neurolist .frame {
     align-content: space-between;
     align-items: flex-start;
     display: flex;
@@ -150,14 +150,14 @@
     gap:40px;
   }
   
-  .screen .rectangle {
+  .neurolist .rectangle {
     background-color: #ccfbff;
     height: 200px;
     position: relative;
     width: 260px;
   }
   
-  .screen .view-5 {
+  .neurolist .view-5 {
     align-items: center;
     display: flex;
     flex: 0 0 auto;
@@ -168,7 +168,7 @@
     
   }
   
-  .screen .img {
+  .neurolist .img {
     height: 31.11px;
     margin-bottom: -5.05px;
     margin-top: -5.05px;
@@ -176,7 +176,7 @@
     width: 24.63px;
   }
   
-  .screen .text-wrapper-4 {
+  .neurolist .text-wrapper-4 {
     color: #000000;
     font-family: "Kodchasan", Helvetica;
     font-size: 30px;

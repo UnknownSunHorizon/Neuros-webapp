@@ -15,6 +15,7 @@ import Pipeline_redact from "./pages/pipeline_redact/Pipeline_redact";
 
 import { Profile } from "./pages/profile/Profile";
 import { Neurolist } from "./pages/neurolist/Neurolist";
+import { Neuro } from "./pages/neuro/Neuro";
 
 import { Button, ConfigProvider, Space, theme } from 'antd';
 
@@ -47,6 +48,7 @@ function App() {
           <Route path="/pipeline_redact" element={<Pipeline_redact />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/neurolist" element={<Neurolist />} />
+          <Route path="/neuro" element={<Neuro />} />
 
           
         </Route>

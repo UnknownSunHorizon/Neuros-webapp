@@ -8,7 +8,7 @@ import image from './assets/image.svg'
 
 export const Neurolist = () => {
   return (
-    <div className="screen">
+    <div className="neurolist">
       <div className="div">
         <img className="image" alt="Image" src={image} />
         <div className="navbar">

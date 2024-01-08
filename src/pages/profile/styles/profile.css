@@ -1,4 +1,4 @@
-#screen {
+#profile {
     align-items: center;
     background-color: #ffffff;
     display: flex;
@@ -9,7 +9,7 @@
     position: relative;
   }
   
-  #screen #div {
+  #profile #div {
     align-items: center;
     background-color: #ccfbff;
     display: flex;
@@ -20,14 +20,14 @@
     width: 1920px;
   }
   
-  #screen #image {
+  #profile #image {
     height: 39px;
     margin-left: -2.5px;
     position: relative;
     width: 269px;
   }
   
-  #screen #view {
+  #profile #view {
     align-items: center;
     display: inline-flex;
     flex: 0 0 auto;
@@ -37,7 +37,7 @@
     position: relative;
   }
   
-  #screen #text-wrapper {
+  #profile #text-wrapper {
     color: #000000;
     font-family: "Inter", Helvetica;
     font-size: 30px;
@@ -49,7 +49,7 @@
     width: fit-content;
   }
   
-  #screen #text-wrapper-2 {
+  #profile #text-wrapper-2 {
     color: #000000;
     font-family: "Kodchasan", Helvetica;
     font-size: 30px;
@@ -61,7 +61,7 @@
     width: fit-content;
   }
   
-  #screen #text-wrapper-3 {
+  #profile #text-wrapper-3 {
     color: #000000;
     font-family: "Kodchasan", Helvetica;
     font-size: 30px;
@@ -73,7 +73,7 @@
     width: fit-content;
   }
   
-  #screen #view-2 {
+  #profile #view-2 {
     align-items: flex-start;
     display: flex;
     gap: 40px;
@@ -82,7 +82,7 @@
     width: 1800px;
   }
   
-  #screen #element {
+  #profile #element {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -92,7 +92,7 @@
     width: 860px;
   }
   
-  #screen #div-2 {
+  #profile #div-2 {
     align-items: flex-start;
     border: 4px solid;
     border-color: #0b1d38;
@@ -106,14 +106,14 @@
     width: 859px;
   }
   
-  #screen #div-3 {
+  #profile #div-3 {
     background-color: #ccfbff;
     height: 200px;
     position: relative;
     width: 200px;
   }
   
-  #screen #view-3 {
+  #profile #view-3 {
     
     display: flex;
     flex-direction: column;
@@ -126,7 +126,7 @@
     width: 411px;
   }
   
-  #screen #text-wrapper-4 {
+  #profile #text-wrapper-4 {
     color: #000000;
     font-family: "Kodchasan", Helvetica;
     font-size: 30px;
@@ -140,7 +140,7 @@
     width: 68px;
   }
   
-  #screen #text-wrapper-5 {
+  #profile #text-wrapper-5 {
     color: #000000;
     font-family: "Kodchasan", Helvetica;
     font-size: 30px;
@@ -154,7 +154,7 @@
     width: 150px;
   }
   
-  #screen #text-wrapper-6 {
+  #profile #text-wrapper-6 {
     color: #000000;
     font-family: "Kodchasan", Helvetica;
     font-size: 30px;
@@ -168,7 +168,7 @@
     width: 161px;
   }
   
-  #screen #text-wrapper-7 {
+  #profile #text-wrapper-7 {
     color: #000000;
     font-family: "Kodchasan", Helvetica;
     font-size: 30px;
@@ -182,7 +182,7 @@
     width: 176px;
   }
   
-  #screen #text-wrapper-8 {
+  #profile #text-wrapper-8 {
     color: #000000;
     font-family: "Kodchasan", Helvetica;
     font-size: 20px;
@@ -196,7 +196,7 @@
     width: 161px;
   }
   
-  #screen #view-4 {
+  #profile #view-4 {
     align-items: center;
     background-color: #ccfbff;
     border-radius: 20px;
@@ -210,7 +210,7 @@
     width: 860px;
   }
   
-  #screen #text-wrapper-9 {
+  #profile #text-wrapper-9 {
     color: #000000;
     font-family: "Inter", Helvetica;
     font-size: 40px;
@@ -223,7 +223,7 @@
     width: fit-content;
   }
   
-  #screen #frame {
+  #profile #frame {
     align-items: flex-start;
     display: flex;
     gap: 140px;
@@ -237,7 +237,7 @@
     left: 60px;
   }
   
-  #screen #p {
+  #profile #p {
     color: #000000;
     font-family: "Kodchasan", Helvetica;
     font-size: 36px;
@@ -249,20 +249,20 @@
     width: fit-content;
   }
   
-  #screen #span {
+  #profile #span {
     font-weight: 600;
   }
   
-  #screen #text-wrapper-10 {
+  #profile #text-wrapper-10 {
     font-size: 40px;
     font-weight: 600;
   }
   
-  #screen #text-wrapper-11 {
+  #profile #text-wrapper-11 {
     font-size: 24px;
   }
   
-  #screen #element-2 {
+  #profile #element-2 {
     color: #000000;
     font-family: "Kodchasan", Helvetica;
     font-size: 24px;
@@ -274,16 +274,16 @@
     width: fit-content;
   }
   
-  #screen #text-wrapper-12 {
+  #profile #text-wrapper-12 {
     font-weight: 500;
   }
   
-  #screen #text-wrapper-13 {
+  #profile #text-wrapper-13 {
     font-size: 32px;
     font-weight: 600;
   }
   
-  #screen #element-3 {
+  #profile #element-3 {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
@@ -297,7 +297,7 @@
     row-gap: 10px;
   }
   
-  #screen #text-wrapper-14 {
+  #profile #text-wrapper-14 {
     color: #000000;
     font-family: "Kodchasan", Helvetica;
     font-size: 36px;

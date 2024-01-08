@@ -1,12 +1,12 @@
 import React from "react";
-import "./styles/profile.css";
+import './styles/profile.css';
 
 import {Link} from "react-router-dom";
 import {Button} from "antd";
 
 export const Profile = () => {
   return (
-    <div id="screen">
+    <div id="profile">
       <div id="div">
         <img id="image" alt="Image" src="" />
         <div id="view">

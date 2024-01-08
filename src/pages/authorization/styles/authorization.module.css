@@ -9,10 +9,13 @@
 }
 
 #authorization_container{
-    width: 570px;
-    height: 872.5px;
+    width: 430px;
+    height: 732.5px;
+    padding: 70px;
     background-color: #fff;
-    text-align: center;
+    display: flex;
+    flex-flow:column;
+    align-items: center;
 }
 
 #authorization_title{
@@ -22,4 +25,31 @@
 	font-weight: 400;
 	letter-spacing: 0;
 	line-height: normal;
+}
+
+#authorization_inputblock{
+    margin-top: 40px;
+    width: 389px;
+    display: flex;
+    flex-flow: column;
+    gap: 22px;
+}
+
+.authorization_login{
+    display: flex;
+    flex-flow: column;
+}
+
+.authorization_subtitle{
+    color: #000;
+    font-family: "Inter", Helvetica;
+	font-size: 19px;
+	font-weight: 400;
+	letter-spacing: 0;
+	line-height: normal;
+    text-align: left;
+}
+
+.authorization_input{
+    height: 62px;
 }

@@ -53,10 +53,11 @@ function App() {
           <Route path="/profile" element={<Profile />} />
           <Route path="/neurolist" element={<Neurolist />} />
           <Route path="/neuro" element={<Neuro />} />
-          <Route path="/register" element={<Registration />} />
-          <Route path="/authorize" element={<Authorization />} />
 
         </Route>
+        
+        <Route path="/register" element={<Registration />} />
+        <Route path="/authorize" element={<Authorization />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>

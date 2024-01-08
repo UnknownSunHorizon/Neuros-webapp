@@ -13,11 +13,15 @@ import Pipelist from "./pages/pipelist/Pipelist";
 import Pipeline_add from "./pages/pipeline_add/Pipeline_add";
 import Pipeline_redact from "./pages/pipeline_redact/Pipeline_redact";
 
+import Registration from "./pages/registration/Registration";
+import Authorization from "./pages/authorization/Authorization";
+
+
 import { Profile } from "./pages/profile/Profile";
 import { Neurolist } from "./pages/neurolist/Neurolist";
 import { Neuro } from "./pages/neuro/Neuro";
 
-import { Button, ConfigProvider, Space, theme } from 'antd';
+import { AutoComplete, Button, ConfigProvider, Space, theme } from 'antd';
 
 function App() {
   return (
@@ -49,8 +53,9 @@ function App() {
           <Route path="/profile" element={<Profile />} />
           <Route path="/neurolist" element={<Neurolist />} />
           <Route path="/neuro" element={<Neuro />} />
+          <Route path="/register" element={<Registration />} />
+          <Route path="/authorize" element={<Authorization />} />
 
-          
         </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>

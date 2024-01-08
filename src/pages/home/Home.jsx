@@ -53,7 +53,7 @@ export const Home = () => {
               </p>
             </div>
             <div id={styles.div_wrapper} className={styles.btn_register}>
-              <div id={styles.text_wrapper_2}>ЗАРЕГИСТРИРОВАТЬСЯ</div>
+            <Link to="/autorize"><div id={styles.text_wrapper_2}>ЗАРЕГИСТРИРОВАТЬСЯ</div></Link>
             </div>
           </div>
         </div>

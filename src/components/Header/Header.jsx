@@ -16,7 +16,7 @@ const Header = () => {
                 <div>
                 <MenuItem><Link to="/neurolist">Нейросети</Link></MenuItem> 
                 <MenuItem><Link to="/pipelist">Пайплайны</Link></MenuItem>
-                <MenuItem><Link to="/reviews">Профиль</Link></MenuItem>
+                <MenuItem><Link to="/profile">Профиль</Link></MenuItem>
                 <MenuItem><Link to="/reviews">Настройки</Link></MenuItem>
                 </div>
             </Menu>

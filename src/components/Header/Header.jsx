@@ -14,7 +14,7 @@ const Header = () => {
             <Menu theme="dark" mode="horizontal" style={header_style}>
                 <img src={header_logo} height="40" />
                 <div>
-                <MenuItem><Link to="/">Нейросети</Link></MenuItem> 
+                <MenuItem><Link to="/neurolist">Нейросети</Link></MenuItem> 
                 <MenuItem><Link to="/pipelist">Пайплайны</Link></MenuItem>
                 <MenuItem><Link to="/reviews">Профиль</Link></MenuItem>
                 <MenuItem><Link to="/reviews">Настройки</Link></MenuItem>

@@ -1,10 +1,7 @@
 import styles from './styles/pipelist.module.css';
 
 import React from 'react';
-
-import { LaptopOutlined, NotificationOutlined, UserOutlined } from '@ant-design/icons';
 import { Breadcrumb, Layout, Menu, theme, Button, message, Space  } from 'antd';
-import MenuItem from 'antd/es/menu/MenuItem';
 
 import {Link} from "react-router-dom";
 

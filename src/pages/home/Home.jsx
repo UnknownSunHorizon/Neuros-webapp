@@ -1,9 +1,6 @@
 import { Link } from "react-router-dom"
 import styles from './styles/home.module.css';
 
-import { useEffect, useState } from "react";
-import { Spin } from "antd";
-
 import header_logo from "./assets/logo.svg";
 import aggregator_logo from "./assets/logo1.svg";
 

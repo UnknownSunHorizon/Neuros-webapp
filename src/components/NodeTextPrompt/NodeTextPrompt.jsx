@@ -1,7 +1,7 @@
 import { useCallback } from 'react';
 import { Handle, Position } from 'reactflow';
 
-import { Breadcrumb, Layout, Menu, theme, Button, message, Space  } from 'antd';
+import { Button, message, Space  } from 'antd';
 
 
 import './NodeTextPrompt.component.css';

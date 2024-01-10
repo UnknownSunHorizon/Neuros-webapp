@@ -1,16 +1,44 @@
 import React from "react";
 import './styles/neuro.css';
 
+import { Breadcrumb, Layout, Menu, theme, Button, message, Space  } from 'antd';
+import { Link } from "react-router-dom";
+
 export const Neuro = () => {
+
+  const [messageApi, contextHolder] = message.useMessage();
+
+    const success = () => {
+        messageApi.open({
+        type: 'success',
+        content: 'This is a success message',
+        });
+    };
+    const error_save = () => {
+        messageApi.open({
+        type: 'error',
+        content: 'Не удается сохранить результат. Ошибка со стороны сервера.',
+        });
+    };
+    const error_beta= () => {
+      messageApi.open({
+      type: 'error',
+      content: 'В данный момент эта функция находится в бета-тестировании!',
+      });
+  };
+
+
+
   return (
     <div className="neuro">
+      {contextHolder}
       <div className="div">
         <img className="image" alt="Image" src="/img/image.svg" />
         <div className="navbar">
-          <div className="text-wrapper">Нейросети</div>
-          <div className="text-wrapper-2">Пайплайны</div>
-          <div className="text-wrapper-2">Профиль</div>
-          <div className="text-wrapper-2">Настройки</div>
+        <Link to="/neurolist"><div className="text-wrapper" >Нейросети</div></Link>
+          <Link to="/pipelist"><div className="text-wrapper-2" >Пайплайны</div></Link>
+          <Link to="/profile"><div className="text-wrapper-2" >Профиль</div></Link>
+          <div onClick={error_beta} className="text-wrapper-2" >Настройки</div>
         </div>
       </div>
       <div className="view">

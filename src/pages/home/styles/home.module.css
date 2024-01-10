@@ -1,3 +1,8 @@
+a {
+	color: blue;
+	text-decoration: none; /* no underline */
+  }
+
 #index {
 	align-items: center;
 	flex-direction: column;
@@ -129,7 +134,7 @@
 	position: relative;
 	width: fit-content;
   }
-  
+
   #index #view_3 {
 	align-items: center;
 	/*background-color: #00000080;*/

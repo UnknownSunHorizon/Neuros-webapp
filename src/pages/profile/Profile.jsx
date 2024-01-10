@@ -2,20 +2,62 @@ import React from "react";
 import './styles/profile.css';
 
 import {Link} from "react-router-dom";
-import {Button} from "antd";
+
+import { Breadcrumb, Layout, Menu, theme, Button, message, Space  } from 'antd';
+
+import {Image} from "antd"
+
+import img1 from "./assets/profile_picture.jpg"
 
 export const Profile = () => {
+
+  const [messageApi, contextHolder] = message.useMessage();
+
+  const success = () => {
+      messageApi.open({
+      type: 'success',
+      content: 'This is a success message',
+      });
+  };
+  const error_file = () => {
+      messageApi.open({
+      type: 'error',
+      content: 'Не удается загрузить файл. Ошибка со стороны сервера.',
+      });
+  };
+  const error_payment = () => {
+    messageApi.open({
+    type: 'error',
+    content: 'Сервис оплаты не отвечает. Попробуйте позже.',
+    });
+  };
+    const error_beta = () => {
+      messageApi.open({
+      type: 'error',
+      content: 'В данный момент эта функция находится в бета-тестировании!',
+      });
+  };
+
+
+
+
+
+
   return (
     <div id="profile">
+      {contextHolder}
+      
       <div id="div">
         <img id="image" alt="Image" src="" />
         <div id="view">
-          <div id="text-wrapper">Нейросети</div>
-          <div id="text-wrapper-2">Пайплайны</div>
-          <div id="text-wrapper-3">Профиль</div>
-          <div id="text-wrapper-2">Настройки</div>
+          <Link to="/neurolist"><div id="text-wrapper" className="header_link">Нейросети</div></Link>
+          <Link to="/pipelist"><div id="text-wrapper-2" className="header_link">Пайплайны</div></Link>
+          <Link to="/profile"><div id="text-wrapper-3" className="header_link">Профиль</div></Link>
+          <div onClick={error_beta} id="text-wrapper-2" className="header_link">Настройки</div>
         </div>
       </div>
+
+
       <div id="view-2">
         <div id="element">
           <div id="div-2">
@@ -25,7 +67,13 @@ export const Profile = () => {
               <div id="text-wrapper-5">Фамилия</div>
               <div id="text-wrapper-6">Компания</div>
               <div id="text-wrapper-7">Должность</div>
-              <div id="text-wrapper-8">Редактировать...</div>
+              <div onClick={error_beta} id="text-wrapper-8" className="btn_info" >Редактировать...</div>
+            </div>
+            <div id="view-3-values">
+              <div id="text-wrapper-4">Иван</div>
+              <div id="text-wrapper-5">Иванов</div>
+              <div id="text-wrapper-6">ОмГТУ</div>
+              <div id="text-wrapper-7">Студент</div>
             </div>
           </div>
           <div id="view-4">
@@ -52,12 +100,19 @@ export const Profile = () => {
                   <br />
                   <br />
                   Преимущества:
-                  <br />-<br />-<br />-<br />
                   <br />
+                  - все основные нейросети
                   <br />
+                  - 3ГБ для хранения результатов
                   <br />
+                  - все настройки всех нейросетей
+                  <br />
+                  - до 15 пайплайнов
+                  <br />
+                  - личный ИИ-ассистент
+                  <br /> <br />
                 </span>
-                <span id="text-wrapper-13">Повысить план</span>
+                <div onClick={error_payment} id="text-wrapper-13" className="btn_purchase" >Повысить план</div>
               </p>
             </div>
           </div>
@@ -66,101 +121,101 @@ export const Profile = () => {
           <div id="text-wrapper-14">Файлы</div>
           <div id="element-3">
 
-            <div className="file">
-              Название
+          <div onClick={error_file} className="file">
+              Без названия
             </div>
-            <div className="file">
-              Название
+            <div onClick={error_file} className="file">
+              Без названия
             </div>
-            <div className="file">
-              Название
+            <div  onClick={error_file} className="file">
+              Без названия
             </div>
-            <div className="file">
-              Название
+            <div onClick={error_file} className="file">
+              Без названия
             </div>
-            <div className="file">
-              Название
-            </div>
-          
-          
-            <div className="file">
-              Название
-            </div>
-            <div className="file">
-              Название
-            </div>
-            <div className="file">
-              Название
-            </div>
-            <div className="file">
-              Название
-            </div>
-            <div className="file">
-              Название
+            <div onClick={error_file} className="file">
+              Без названия
             </div>
           
-            <div className="file">
-              Название
+          
+            <div onClick={error_file} className="file">
+              Без названия
             </div>
-            <div className="file">
-              Название
+            <div onClick={error_file} className="file">
+              Без названия
             </div>
-            <div className="file">
-              Название
+            <div onClick={error_file} className="file">
+              Без названия
             </div>
-            <div className="file">
-              Название
+            <div onClick={error_file} className="file">
+              Без названия
             </div>
-            <div className="file">
-              Название
+            <div onClick={error_file} className="file">
+              Без названия
             </div>
           
-            <div className="file">
-              Название
+            <div  onClick={error_file}  className="file">
+              Без названия
             </div>
-            <div className="file">
-              Название
+            <div  onClick={error_file}  className="file">
+              Без названия
             </div>
-            <div className="file">
-              Название
+            <div  onClick={error_file}  className="file">
+              Без названия
             </div>
-            <div className="file">
-              Название
+            <div  onClick={error_file}  className="file">
+              Без названия
             </div>
-            <div className="file">
-              Название
-            </div>
-          
-            <div className="file">
-              Название
-            </div>
-            <div className="file">
-              Название
-            </div>
-            <div className="file">
-              Название
-            </div>
-            <div className="file">
-              Название
-            </div>
-            <div className="file">
-              Название
+            <div  onClick={error_file}  className="file">
+              Без названия
             </div>
           
-            <div className="file">
-              Название
+            <div  onClick={error_file}  className="file">
+              Без названия
             </div>
-            <div className="file">
-              Название
+            <div  onClick={error_file}  className="file">
+              Без названия
             </div>
-            <div className="file">
-              Название
+            <div  onClick={error_file}  className="file">
+              Без названия
             </div>
-            <div className="file">
-              Название
+            <div  onClick={error_file}  className="file">
+              Без названия
             </div>
-            <div className="file">
-              Название
+            <div  onClick={error_file}  className="file">
+              Без названия
+            </div>
+          
+            <div  onClick={error_file}  className="file">
+              Без названия
+            </div>
+            <div  onClick={error_file}  className="file">
+              Без названия
+            </div>
+            <div  onClick={error_file}  className="file">
+              Без названия
+            </div>
+            <div  onClick={error_file}  className="file">
+              Без названия
+            </div>
+            <div  onClick={error_file}  className="file">
+              Без названия
+            </div>
+          
+            <div  onClick={error_file}  className="file">
+              Без названия
+            </div>
+            <div  onClick={error_file}  className="file">
+              Без названия
+            </div>
+            <div  onClick={error_file}  className="file">
+              Без названия
+            </div>
+            <div  onClick={error_file}  className="file">
+              Без названия
+            </div>
+            <div  onClick={error_file}  className="file">
+              Без названия
             </div>
           </div>
         </div>

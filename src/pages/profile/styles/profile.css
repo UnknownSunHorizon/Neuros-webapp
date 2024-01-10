@@ -5,8 +5,10 @@
     flex-direction: column;
     gap: 40px;
     height: 1080px;
-    width: 1920px;
+    
     position: relative;
+    width: 100%;
+    overflow: hidden;
   }
   
   #profile #div {
@@ -18,6 +20,7 @@
     padding: 10px 80px;
     position: relative;
     width: 1920px;
+    
   }
   
   #profile #image {
@@ -39,7 +42,7 @@
   
   #profile #text-wrapper {
     color: #000000;
-    font-family: "Inter", Helvetica;
+    font-family: "Kodchasan", Helvetica;
     font-size: 30px;
     font-weight: 400;
     letter-spacing: 0;
@@ -111,6 +114,9 @@
     height: 200px;
     position: relative;
     width: 200px;
+    border-radius: 30px;
+
+    background-image: url("../assets/profile_picture.jpg");
   }
   
   #profile #view-3 {
@@ -122,15 +128,29 @@
     margin-bottom: -20px;
     padding: 10px;
     position: relative;
+    font-weight: 600;
+    width: 200px;
+  }
+
+  #profile #view-3-values {
     
-    width: 411px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    height: 283px;
+    margin-bottom: -20px;
+    padding: 10px;
+    position: relative;
+    font-weight: 400;
+    
+    width: 200px;
   }
   
   #profile #text-wrapper-4 {
     color: #000000;
     font-family: "Kodchasan", Helvetica;
     font-size: 30px;
-    font-weight: 600;
+    
     height: 35px;
     letter-spacing: 0;
     line-height: normal;
@@ -144,7 +164,7 @@
     color: #000000;
     font-family: "Kodchasan", Helvetica;
     font-size: 30px;
-    font-weight: 600;
+    
     height: 36px;
     letter-spacing: 0;
     line-height: normal;
@@ -158,7 +178,7 @@
     color: #000000;
     font-family: "Kodchasan", Helvetica;
     font-size: 30px;
-    font-weight: 600;
+    
     height: 35px;
     letter-spacing: 0;
     line-height: normal;
@@ -172,7 +192,7 @@
     color: #000000;
     font-family: "Kodchasan", Helvetica;
     font-size: 30px;
-    font-weight: 600;
+    
     height: 35px;
     letter-spacing: 0;
     line-height: normal;
@@ -337,4 +357,38 @@
   font-size: 20px;
   font-weight: 400;
   
+  transition: 0.3s;
 }
+
+.file:hover{
+  background-color: #071220 !important;
+	cursor: pointer;
+}
+
+.header_link{
+	transition: 0.3s;
+  }
+  .header_link:hover{
+	color: #85e2e8 !important;
+	cursor: pointer;
+  }
+
+  .btn_info{
+	transition: 0.3s;
+	
+  }
+  .btn_info:hover{
+    color: #85e2e8 !important;
+    cursor: pointer;
+  }
+.btn_purchase{
+	transition: 0.3s;
+}
+
+  .btn_purchase:hover{
+    color: #85e2e8 !important;
+    cursor: pointer;
+  }
+
+
+

@@ -49,9 +49,11 @@ export const Home = () => {
                 Попробуйте бесплатный доступ и оцените все основные функции NEUROS даже не притрагиваясь к оплате!
               </p>
             </div>
-            <div id={styles.div_wrapper} className={styles.btn_register}>
-            <Link to="/authorize"><div id={styles.text_wrapper_2}>ЗАРЕГИСТРИРОВАТЬСЯ</div></Link>
-            </div>
+            <Link to="/authorize">
+              <div id={styles.div_wrapper} className={styles.btn_register}>
+                <div id={styles.text_wrapper_2}>ЗАРЕГИСТРИРОВАТЬСЯ</div>
+              </div>
+            </Link>
           </div>
         </div>
         <div id={styles.view_3}>

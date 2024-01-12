@@ -133,6 +133,8 @@
     display: flex;
     justify-content: center;
     align-items:  center;
+
+    transition: 0.3s;
   }
   
   .neuro .text-wrapper-5 {
@@ -149,6 +151,8 @@
     display: flex;
     justify-content: center;
     align-items:  center;
+
+    transition: 0.3s;
   }
   
   .neuro .text-wrapper-6 {
@@ -166,6 +170,8 @@
     display: flex;
     justify-content: center;
     align-items:  center;
+
+    transition: 0.3s;
   }
   
   .neuro .view-3 {
@@ -236,3 +242,17 @@
 
   }
   
+  .neuro .text-wrapper-4:hover {
+    color: #85e2e8 !important;
+    cursor: pointer;
+  }
+
+  .neuro .text-wrapper-5:hover {
+    color: #85e2e8 !important;
+    cursor: pointer;
+  }
+  
+  .neuro .text-wrapper-6:hover {
+    color: #85e2e8 !important;
+    cursor: pointer;
+  }

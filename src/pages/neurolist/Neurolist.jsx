@@ -19,12 +19,20 @@ export const Neurolist = () => {
         content: 'This is a success message',
         });
     };
-    const error_beta = () => {
+    const error_neuro = () => {
         messageApi.open({
         type: 'error',
         content: 'В данный момент эта нейросеть находится в бета-тестировании!',
         });
     };
+
+    const error_beta = () => {
+      messageApi.open({
+      type: 'error',
+      content: 'В данный момент эта функция находится в бета-тестировании!',
+      });
+  };
+
     const error_category = () => {
       messageApi.open({
       type: 'error',
@@ -42,7 +50,7 @@ export const Neurolist = () => {
         <div className="navbar">
         <Link to="/neurolist"><div className="text-wrapper" >Нейросети</div></Link>
           <Link to="/pipelist"><div className="text-wrapper-2" >Пайплайны</div></Link>
-          <Link to="/profile"><div className="text-wrapper-3" >Профиль</div></Link>
+          <Link to="/profile"><div className="text-wrapper-2" >Профиль</div></Link>
           <div onClick={error_beta} className="text-wrapper-2" >Настройки</div>
         </div>
       </div>
@@ -56,23 +64,23 @@ export const Neurolist = () => {
             <hr className="line" />
           </div>
           <div className="frame">
-            <div className="rectangle" />
-            <div className="rectangle" />
-            <div className="rectangle" />
-            <div className="rectangle" />
-            <div className="rectangle" />
-            <div className="rectangle" />
-            <div className="rectangle" />
+            <Link to="/neuro"><div className="rectangle" /></Link>
+            <div onClick={error_neuro} className="rectangle" />
+            <div onClick={error_neuro} className="rectangle" />
+            <div onClick={error_neuro} className="rectangle" />
+            <div onClick={error_neuro} className="rectangle" />
+            <div onClick={error_neuro} className="rectangle" />
+            <div onClick={error_neuro} className="rectangle" />
           </div>
         </div>
         <div className="view-5">
-          <div className="view-4">
+          <div onClick={error_category} className="view-4">
             <img className="img" alt="Polygon" src={polygon2} />
             <div className="text-wrapper-4">Текстовые</div>
           </div>
           <hr className="line" />
         </div>
-        <div className="view-5">
+        <div  onClick={error_category} className="view-5">
           <div className="view-4">
             <img className="img" alt="Polygon" src={polygon2}/>
             <div className="text-wrapper-4">Аудио</div>
@@ -80,7 +88,7 @@ export const Neurolist = () => {
           <hr className="line" />
         </div>
         <div className="view-5">
-          <div className="view-4">
+          <div onClick={error_category} className="view-4">
             <img className="img" alt="Polygon" src={polygon2}/>
             <div className="text-wrapper-4">Анализ</div>
           </div>

@@ -25,6 +25,8 @@ export const Neuro = () => {
       type: 'error',
       content: 'В данный момент эта функция находится в бета-тестировании!',
       });
+
+      
   };
 
 
@@ -46,9 +48,9 @@ export const Neuro = () => {
           <div className="text-wrapper-3">Нейросеть “Название”</div>
           <div className="rectangle" />
           <div className="frame">
-            <div className="text-wrapper-4">Назад</div>
-            <div className="text-wrapper-5">Сохранить</div>
-            <div className="text-wrapper-6">Добавить в пайплайн</div>
+            <Link to="/neurolist"><div className="text-wrapper-4">Назад</div></Link>
+            <div onClick={error_save} className="text-wrapper-5">Сохранить</div>
+            <div onClick={error_beta} className="text-wrapper-6">Добавить в пайплайн</div>
           </div>
         </div>
         <div className="view-3">

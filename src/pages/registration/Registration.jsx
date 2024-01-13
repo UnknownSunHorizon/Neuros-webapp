@@ -25,8 +25,14 @@ export const Registration = () => {
                         <input className={styles.registration_input} type="text"></input>
                     </div>
                 </div>
-                <button id={styles.registration_button}>Зарегистрироваться</button>
-                <span id={styles.registration_toAuthorization}>Уже есть аккаунт? <a id={styles.registration_link}>Войти</a></span>
+                <Link to="/profile">
+                    <button id={styles.registration_button}>Зарегистрироваться</button>
+                </Link>
+                <span id={styles.registration_toAuthorization}>Уже есть аккаунт? <span />
+                    <Link to="/authorize">
+                        <a id={styles.registration_link}>Войти</a>
+                    </Link>
+                </span>
                 <span id={styles.registration_with_help}>Или зарегистрируйтесь с помощью</span>
                 <div id={styles.registration_icons}>
                     <div id={styles.registration_icon_1}><img id={styles.registration_vk} alt="vk_logo" src={vk_logo} /></div>

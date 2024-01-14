@@ -8,6 +8,9 @@
     position: relative;
     width: 100%;
     overflow: hidden;
+
+
+    
   }
   
   .neuro .div {
@@ -23,7 +26,7 @@
   
   .neuro .image {
     height: 39px;
-    margin-left: -2.5px;
+    left: 80px;
     position: relative;
     width: 269px;
   }
@@ -48,6 +51,12 @@
     margin-top: -1px;
     position: relative;
     width: fit-content;
+    transition: 0.3s;
+  }
+
+  .neuro .text-wrapper:hover {
+    color: #85e2e8 !important;
+    cursor: pointer;
   }
   
   .neuro .text-wrapper-2 {
@@ -60,6 +69,13 @@
     margin-top: -1px;
     position: relative;
     width: fit-content;
+
+    transition: 0.3s;
+  }
+
+  .neuro .text-wrapper-2:hover {
+    color: #85e2e8 !important;
+    cursor: pointer;
   }
   
   .neuro .view {
@@ -102,7 +118,25 @@
     margin-right: -10px;
     position: relative;
     width: 860px;
+
+
+    text-align: center;
+    justify-items: center;
+    color: #000000;
+    font-family: "Kodchasan", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 649px;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
+    
   
   .neuro .frame {
     align-items: center;
@@ -202,6 +236,7 @@
   }
   
   .neuro .text-wrapper-7 {
+    
     color: #000000;
     font-family: "Kodchasan", Helvetica;
     font-size: 20px;
@@ -211,8 +246,14 @@
     margin-top: 15px;
     margin-left: 20px;
     position: relative;
-    width: fit-content;
+    width: 820px;
+    height: 200px;
   }
+
+  .ant-input::placeholder {
+    color: #707070;
+  }
+
   
   .neuro .frame-2 {
     align-items: flex-start;
@@ -221,7 +262,7 @@
     border-color: #0b1d38;
     border-radius: 20px;
 
-    height: 528px;
+    height: 350px;
    
     position: relative;
     width: 840px;
@@ -241,7 +282,66 @@
     margin-left: 20px;
 
   }
+
+  .neuro .slider-container{
+    display: flex;
+    justify-items: space-between;
+    width: 100%;
+    gap: 20px;
+    
+    
+    width: 800px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .neuro .slider-text-wrapper{
+    color: #000000;
+    font-family: "Kodchasan", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    
+    width: 180px;
+    position: relative;
+  }
+
+  .neuro .btn-generate {
+    align-items: center;
+    background-color: #64F2FB;
+    border-radius: 20px;
+    display: flex;
+    gap: 10px;
+    height: 77px;
+    justify-content: center;
+    overflow: hidden;
+   
+    position: relative;
+    width: 278px;
+
+
+    color: #000000;
+    font-family: "Kodchasan", Helvetica;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    }
+    
+
+    .neuro .btn-generate:hover {
+      cursor: pointer;
+      animation: button_hover 0.1s ease 1 forwards;
+    }
   
+    @keyframes button_hover{
+        from{}
+        to{box-shadow: 0px 0px 7px 0px #041C38;}
+    }
+
+
   .neuro .text-wrapper-4:hover {
     color: #85e2e8 !important;
     cursor: pointer;
@@ -256,3 +356,5 @@
     color: #85e2e8 !important;
     cursor: pointer;
   }
+
+

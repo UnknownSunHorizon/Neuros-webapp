@@ -4,10 +4,17 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
-    height: 1150px;
+    
     position: relative;
     width: 100%;
     overflow: hidden;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
   
   .neurolist .div {
@@ -23,9 +30,9 @@
   
   .neurolist .image {
     height: 39px;
-    margin-left: -2.5px;
     position: relative;
     width: 269px;
+    left: 80px;
   }
   
   .neurolist .navbar {
@@ -81,7 +88,7 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
-    height: 900px;
+    height: auto;
     position: relative;
     width: 1760px;
   }
@@ -98,7 +105,7 @@
     padding: 10px;
     position: relative;
     width: 1760px;
-    padding-bottom: 50px;
+    
   }
   
   .neurolist .view-3 {
@@ -164,7 +171,7 @@
     align-items: flex-start;
     display: flex;
     flex-wrap: wrap;
-    height: 430px;
+    
     margin-left: -10px;
     margin-right: -10px;
     position: relative;
@@ -173,7 +180,7 @@
   }
   
   .neurolist .rectangle {
-    background-color: #ccfbff;
+    background-color: #ffffff;
     height: 200px;
     position: relative;
     width: 260px;
@@ -232,4 +239,12 @@
 
   .neurolist .rectangle:hover {
     cursor: pointer;
+    animation: button_hover 0.1s ease 1 forwards;
   }
+
+@keyframes button_hover{
+    from{}
+    to{box-shadow: 0px 0px 7px 0px #041C38;}
+}
+
+

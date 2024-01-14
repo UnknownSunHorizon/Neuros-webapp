@@ -9,6 +9,11 @@ import image from './assets/image.svg'
 import { Breadcrumb, Layout, Menu, theme, Button, message, Space} from 'antd';
 import { Link } from "react-router-dom";
 
+import mjEnvir from './assets/mj-enviroment.png'
+import mjChars from './assets/mj-chars.png'
+import sdEnvir from './assets/sd-enviroment.png'
+import sdChars from './assets/sd-chars.png'
+
 export const Neurolist = () => {
 
   const [messageApi, contextHolder] = message.useMessage();
@@ -64,13 +69,11 @@ export const Neurolist = () => {
             <hr className="line" />
           </div>
           <div className="frame">
-            <Link to="/neuro"><div className="rectangle" /></Link>
-            <div onClick={error_neuro} className="rectangle" />
-            <div onClick={error_neuro} className="rectangle" />
-            <div onClick={error_neuro} className="rectangle" />
-            <div onClick={error_neuro} className="rectangle" />
-            <div onClick={error_neuro} className="rectangle" />
-            <div onClick={error_neuro} className="rectangle" />
+            <Link to="/neuro"><img onClick={error_neuro} className="rectangle" src={mjChars} alt="Midjourney Персонажи"/></Link>
+            <img onClick={error_neuro} className="rectangle" src={mjEnvir} alt="Midjourney Окружение"/>
+            <img onClick={error_neuro} className="rectangle" src={sdChars} alt="Stable Diffusion Персонажи"/>
+            <img onClick={error_neuro} className="rectangle" src={sdEnvir} alt="Stable Diffusion Окружение"/>
+            
           </div>
         </div>
         <div className="view-5">

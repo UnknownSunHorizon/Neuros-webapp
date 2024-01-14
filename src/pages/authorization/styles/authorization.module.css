@@ -27,6 +27,13 @@
 	line-height: normal;
 }
 
+#authorization_form{
+    width: 389px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
 #authorization_inputblock{
     margin-top: 40px;
     width: 389px;
@@ -42,7 +49,7 @@
 
 .authorization_subtitle{
     color: #000;
-    font-family: "Inter", Helvetica;
+    font-family: "Kodchasan", Helvetica;
 	font-size: 19px;
 	font-weight: 400;
 	letter-spacing: 0;
@@ -52,4 +59,118 @@
 
 .authorization_input{
     height: 62px;
+    color: #000;
+    font-family: "Kodchasan", Helvetica;
+	font-size: 19px;
+	font-weight: 400;
+	letter-spacing: 0;
+	line-height: normal;
+}
+
+.authorization_input[type=password]{
+    font-size: 27px;
+}
+
+#authorization_memory{
+    color: #000;
+    font-family: "Kodchasan", Helvetica;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0;
+	line-height: normal;
+    text-align: left;
+}
+
+#authorization_button{
+    margin: 57px 0px 19px 0px;
+    width: 416px;
+    height: 58px;
+    border-width: 0px;
+    border-radius: 15px;
+    background-color: #64F2FB;
+    font-family: "Kodchasan", Helvetica;
+	font-size: 25px;
+	font-weight: 400;
+	left: 34px;
+	letter-spacing: 0;
+	line-height: normal;
+}
+
+#authorization_button:hover{
+    animation: button_hover 0.1s ease 1 forwards;
+    
+}
+
+@keyframes button_hover{
+    from{}
+    to{box-shadow: 0px 0px 7px 0px #041C38;}
+}
+
+#authorization_button:active{
+    background-color: #CCFCFF;
+    animation: none;
+}
+
+#authorization_toRegistration{
+    font-family: "Kodchasan", Helvetica;
+	font-size: 22px;
+	font-weight: 400;
+	left: 34px;
+	letter-spacing: 0;
+	line-height: normal;
+}
+
+#authorization_link{
+    color:#000;
+    text-decoration: underline;
+}
+
+#authorization_link:hover{
+    text-decoration: none;
+}
+
+#authorization_with_help{
+    margin: 94px 0 26px 0;
+    font-family: "Kodchasan", Helvetica;
+	font-size: 25px;
+	font-weight: 400;
+	left: 34px;
+	letter-spacing: 0;
+	line-height: normal;
+}
+
+#authorization_icons{
+    display: flex;
+    gap: 46px;
+}
+
+#authorization_icon_1{
+    width: 80px;
+    height: 80px;
+    background-color: #CCC;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+#authorization_vk{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: -10px;
+    top: -10px;
+}
+
+#authorization_icon_2{
+    width: 80px;
+    height: 80px;
+    background-color: #CCC;
+    border-radius: 50%;
+}
+
+#authorization_icon_3{
+    width: 80px;
+    height: 80px;
+    background-color: #CCC;
+    border-radius: 50%;
 }

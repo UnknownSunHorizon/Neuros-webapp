@@ -27,6 +27,13 @@
 	line-height: normal;
 }
 
+#registration_form{
+    width: 389px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
 #registration_inputblock{
     margin-top: 40px;
     width: 389px;
@@ -52,6 +59,12 @@
 
 .registration_input{
     height: 62px;
+    color: #000;
+    font-family: "Kodchasan", Helvetica;
+	font-size: 19px;
+	font-weight: 400;
+	letter-spacing: 0;
+	line-height: normal;
 }
 
 #registration_button{

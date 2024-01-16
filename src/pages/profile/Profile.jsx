@@ -48,18 +48,6 @@ export const Profile = () => {
   return (
     <div id="profile">
       {contextHolder}
-      
-      <div id="div">
-        <img id="image" alt="Image" src={image} />
-        <div id="view">
-          <Link to="/neurolist"><div id="text-wrapper" className="header_link">Нейросети</div></Link>
-          <Link to="/pipelist"><div id="text-wrapper-2" className="header_link">Пайплайны</div></Link>
-          <Link to="/profile"><div id="text-wrapper-3" className="header_link">Профиль</div></Link>
-          <div onClick={error_beta} id="text-wrapper-2" className="header_link">Настройки</div>
-        </div>
-      </div>
-
-
       <div id="view-2">
         <div id="element">
           <div id="div-2">

@@ -1,25 +1,37 @@
-import { Link } from "react-router-dom"
-import MenuItem from "antd/es/menu/MenuItem"
-import { Menu } from "antd"
-import header_logo from "./assets/logo.svg"
+import { Link } from "react-router-dom";
+import MenuItem from "antd/es/menu/MenuItem";
+import { Breadcrumb, Layout, Menu, theme, Button, message, Space  } from 'antd';
 
-const header_style = {
-    flexDirection: "row",
-    justifyContent: "space-between"
-}
+import logo from './assets/logo.svg'
+
+import styles from "./styles/header.module.css";
+
+
 
 const Header = () => {
+    
+    const [messageApi, contextHolder] = message.useMessage();
+
+    const error_beta = () => {
+        messageApi.open({
+        type: 'error',
+        content: 'В данный момент эта функция находится в бета-тестировании!',
+        });
+    };
+
     return (
-        <header>                      
-            <Menu theme="dark" mode="horizontal" style={header_style}>
-                <img src={header_logo} height="40" />
-                <div>
-                <MenuItem><Link to="/neurolist">Нейросети</Link></MenuItem> 
-                <MenuItem><Link to="/pipelist">Пайплайны</Link></MenuItem>
-                <MenuItem><Link to="/profile">Профиль</Link></MenuItem>
-                <MenuItem><Link to="/reviews">Настройки</Link></MenuItem>
+        <header>
+            {contextHolder}                      
+            <div className={styles.div}>
+                <img className={styles.image_logo} alt="Image" src={logo} />
+                <div className={styles.navbar}>
+                    <Link to="/neurolist"><div className={styles.textwrapper2} >Нейросети</div></Link>
+                    <Link to="/pipelist"><div className={styles.textwrapper2} >Пайплайны</div></Link>
+                    <Link to="/profile"><div className={styles.textwrapper2} >Профиль</div></Link>
+                    <div onClick={error_beta} className={styles.textwrapper2} >Настройки</div>
                 </div>
-            </Menu>
+            </div>
+            <br></br>
         </header>
     )
 }

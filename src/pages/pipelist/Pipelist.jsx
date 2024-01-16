@@ -43,16 +43,7 @@ const Pipelist = () => {
 
       return (
         <div className={styles.container}>
-        <div className={styles.div}>
-                <img className="image" alt="Image" src={image} />
-                <div className={styles.navbar}>
-                    <Link to="/neurolist"><div className={styles.textwrapper2} >Нейросети</div></Link>
-                    <Link to="/pipelist"><div className={styles.textwrapper} >Пайплайны</div></Link>
-                    <Link to="/profile"><div className={styles.textwrapper2} >Профиль</div></Link>
-                    <div onClick={error_beta} className={styles.textwrapper2} >Настройки</div>
-                </div>
-         </div>
-                
+            {contextHolder}
             <div className={styles.pipelines_container}>
                 
                 {contextHolder}

@@ -50,15 +50,6 @@ export const Neurolist = () => {
   return (
     <div className="neurolist">
       {contextHolder}
-      <div className="div">
-        <img className="image" alt="Image" src={image} />
-        <div className="navbar">
-        <Link to="/neurolist"><div className="text-wrapper" >Нейросети</div></Link>
-          <Link to="/pipelist"><div className="text-wrapper-2" >Пайплайны</div></Link>
-          <Link to="/profile"><div className="text-wrapper-2" >Профиль</div></Link>
-          <div onClick={error_beta} className="text-wrapper-2" >Настройки</div>
-        </div>
-      </div>
       <div className="view">
         <div className="view-2">
           <div className="view-3">

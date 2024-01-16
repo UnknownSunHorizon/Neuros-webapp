@@ -67,3 +67,76 @@
     background-color: #64F2FB;
     position:fixed;
 }
+
+
+
+.container{
+    width: 100%;
+    overflow: hidden;
+}
+
+.div {
+    align-items: center;
+    background-color: #ccfbff;
+    display: flex;
+    gap: 480px;
+    height: 100px;
+    padding: 10px 80px;
+    position: relative;
+    width: 1920px;
+
+  }
+  
+  .image {
+    height: 39px;
+    left: 80px;
+    position: relative;
+    width: 269px;
+  }
+  
+  .navbar {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 96px;
+    margin-right: -16px;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .textwrapper {
+    color: #000000;
+    font-family: "Kodchasan", Helvetica;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+    transition: 0.3s;
+  }
+
+  .textwrapper:hover {
+    color: #85e2e8 !important;
+    cursor: pointer;
+  }
+  
+  .textwrapper2 {
+    color: #000000;
+    font-family: "Kodchasan", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+
+    transition: 0.3s;
+  }
+
+  .textwrapper2:hover {
+    color: #85e2e8 !important;
+    cursor: pointer;
+  }

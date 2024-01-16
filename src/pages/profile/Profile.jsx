@@ -9,6 +9,8 @@ import {Image} from "antd"
 
 import img1 from "./assets/profile_picture.jpg"
 
+import image from "./assets/image.svg"
+
 export const Profile = () => {
 
   const [messageApi, contextHolder] = message.useMessage();
@@ -48,7 +50,7 @@ export const Profile = () => {
       {contextHolder}
       
       <div id="div">
-        <img id="image" alt="Image" src="" />
+        <img id="image" alt="Image" src={image} />
         <div id="view">
           <Link to="/neurolist"><div id="text-wrapper" className="header_link">Нейросети</div></Link>
           <Link to="/pipelist"><div id="text-wrapper-2" className="header_link">Пайплайны</div></Link>

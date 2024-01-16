@@ -20,9 +20,9 @@ export const Registration = () => {
                         <div className={styles.registration_login}>
                             <span className={styles.registration_subtitle}>Пароль</span>
                             <input className={styles.registration_input} 
-                            type="password" 
+                            type="text" 
                             minLength="8" maxLength="24" size="24" 
-                            pattern="[a-zA-Z0-9]" required
+                            pattern="[a-zA-Z0-9]+" required
                             title="Требования к паролю:
                              - содержит латинские буквы a-Z;
                              - содержит цифры 0-9;
@@ -31,9 +31,9 @@ export const Registration = () => {
                         <div className={styles.registration_login}>
                             <span className={styles.registration_subtitle}>Повторите пароль</span>
                             <input className={styles.registration_input}  
-                            type="password" 
+                            type="text" 
                             minLength="8" maxLength="24" size="24" 
-                            pattern="[a-zA-Z0-9]" required
+                            pattern="[a-zA-Z0-9]+" required
                             title="Требования к паролю:
                              - содержит латинские буквы a-Z;
                              - содержит цифры 0-9;

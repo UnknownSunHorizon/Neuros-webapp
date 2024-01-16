@@ -16,7 +16,7 @@
 .pipelines_block{
     width: 21vw;
 	height: 23vh;
-    background-image: url("https://placehold.co/410x250.png");
+    background-image: url("https://placehold.co/410x250/0C1E38/FFFFFF/png");
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -27,7 +27,7 @@
 .pipelines_block_add{
     width: 21vw;
 	height: 23vh;
-    background-image: url("https://placehold.co/410x250.png");
+    background-image: url("https://placehold.co/410x250/0C1E38/FFFFFF/png");
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -37,7 +37,7 @@
 
 .pipelines_block_add_button{
     /*background-image: url("https://placehold.co/410x250.png");*/
-    background-color: #ddd;
+    background-color: #0C1E38;
     border-radius: 0;
     width: 21vw;
 	height: 23vh;
@@ -47,11 +47,11 @@
 }
 
 .pipelines_block_add_button:hover{
-    background-color: #ccfcff;
+    background-color: #15335e;
 }
 
 .pipelines_block_add_button:active{
-    background-color: #ddd;
+    background-color: #0C1E38;
 }
 
 .button_vertical{

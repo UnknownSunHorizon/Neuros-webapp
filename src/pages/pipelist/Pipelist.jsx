@@ -45,9 +45,13 @@ const Pipelist = () => {
                 <p>Пайплайн</p>
             </div>
             </Link>
-            <div className={styles.pipelines_block_add}>
+            {/*<div className={styles.pipelines_block_add}>
                 <Button onClick={error}>+</Button>
-            </div>
+            </div>*/}
+            <Button className={styles.pipelines_block_add_button} onClick={error}>
+                <div className={styles.button_vertical}></div>
+                <div className={styles.button_gorizontal}></div>
+            </Button>
                         
         </div>
       );

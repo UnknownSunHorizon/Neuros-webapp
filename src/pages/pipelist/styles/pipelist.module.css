@@ -34,3 +34,36 @@
     justify-content: center;
     align-items: center;
 }
+
+.pipelines_block_add_button{
+    /*background-image: url("https://placehold.co/410x250.png");*/
+    background-color: #ddd;
+    border-radius: 0;
+    width: 21vw;
+	height: 23vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pipelines_block_add_button:hover{
+    background-color: #ccfcff;
+}
+
+.pipelines_block_add_button:active{
+    background-color: #ddd;
+}
+
+.button_vertical{
+    width: 20px;
+    height: 100px;
+    background-color: #64F2FB;
+    position:fixed;
+}
+
+.button_gorizontal{
+    width: 100px;
+    height: 20px;
+    background-color: #64F2FB;
+    position:fixed;
+}

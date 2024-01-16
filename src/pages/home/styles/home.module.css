@@ -1,6 +1,7 @@
 a {
-	color: blue;
+	color: inherit;
 	text-decoration: none; /* no underline */
+
   }
 
 #index {
@@ -8,7 +9,7 @@ a {
 	flex-direction: column;
 	width: 100%;
 	overflow: hidden;
-	height: 3140px;
+	
 	background-image: url(https://cdn.animaapp.com/projects/659a96dbde0bbd56d7a8ad3d/releases/659a97a83eeab1d3632e9f59/img/-------.png);
 	background-attachment: fixed;
 	background-size: cover;
@@ -571,6 +572,7 @@ a {
 	margin-right: -82px;
 	position: relative;
 	width: 1920px;
+	top: 27px;
 	margin-top: 100px;
   }
   

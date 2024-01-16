@@ -27,10 +27,10 @@ export const Home = () => {
               src={header_logo}
             />
             <div id={styles.navbar}>
-              <div id={styles.text_wrapper} className={styles.header_link}>Об Агрегаторе</div>
-              <div id={styles.text_wrapper} className={styles.header_link}>О подписках</div>
-              <div id={styles.text_wrapper} className={styles.header_link}>Зарегистрироваться</div>
-              <div id={styles.text_wrapper} className={styles.header_link}>Авторизоваться</div>
+              <div id={styles.text_wrapper} className={styles.header_link}><a href="#about">Об Агрегаторе</a></div>
+              <div id={styles.text_wrapper} className={styles.header_link}><a href="#tarifs">О подписках</a></div>
+              <Link to="/register"><div id={styles.text_wrapper} className={styles.header_link}>Зарегистрироваться</div></Link>
+              <Link to="/authorize"><div id={styles.text_wrapper} className={styles.header_link}>Авторизоваться</div></Link>
             </div>
           </div>
           <div id={styles.view_2}>
@@ -58,6 +58,7 @@ export const Home = () => {
         </div>
         <div id={styles.view_3}>
           <div id={styles.text_wrapper_3}>O NEUROS</div>
+          <a name="about"></a>
           <div id={styles.frame}>
             <div id={styles.frame_2}>
               <div id={styles.frame_3}>
@@ -153,6 +154,7 @@ export const Home = () => {
         </div>
         <div id={styles.view_4}>
           <div id={styles.text_wrapper_6}>Тарифы</div>
+          <a name="tarifs"></a>
           <div id={styles.frame_8}>
             <div id={styles.frame_9}>
               <div id={styles.overlap_group} className={styles.btn_purchase}>

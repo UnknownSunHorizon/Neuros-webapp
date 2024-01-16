@@ -5,12 +5,7 @@ import Header from "../components/Header/Header"
 const MainLayout = () => {
     return (
         <>
-            <Header
-                    style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    }}
-               />
+            
             
             <Outlet />
         </>

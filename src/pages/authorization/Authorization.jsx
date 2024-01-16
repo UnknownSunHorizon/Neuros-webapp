@@ -22,7 +22,7 @@ export const Authorization = () => {
                             <input className={styles.authorization_input} 
                             type="password" 
                             minLength="8" maxLength="24" size="24" 
-                            pattern="[a-Z0-9]" required
+                            pattern="[a-Z0-9]+" required
                             title="Требования к паролю:
                              - содержит латинские буквы a-Z;
                              - содержит цифры 0-9;
